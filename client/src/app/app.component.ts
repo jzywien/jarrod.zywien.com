@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  onSubmit() {
+    return false;
+  }
+
+  onLogin() {
+    console.log('clicked');
+    return false;
+  }
+
+  onLoginWithGoogle() {
+    console.log('clicked');
+    return false;
+  }
 }

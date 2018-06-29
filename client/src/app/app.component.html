@@ -1,24 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-  <div class="container-fluid-lg navyGradient">
-    <form class="gradient">
-      <div>
+  <div class="login-form">
+    <form class="form gradient" (ngSubmit)="onSubmit()">
+      <div class="form-field">
         <input activeInput>
         <label>Username</label>
       </div>
-      <div>
+      <div class="form-field">
           <input activeInput type="password">
           <label>Password</label>
         </div>
-            <button class="btn-secondary">
-                Login</button>
+      <div style="flex: 1;">
+        <div style="text-align: center;margin: 10px;"><span style="font-weight: 300">Forgot your </span>password?</div>
+        <button mat-flat-button color="accent" (click)="onLogin()" style="width: 100%;">Login</button>
+      </div>
 
-        <!-- <div style="display:flex; justify-content: space-around">
-          <button class="btn-secondary">
-              Login</button>
-              <button class="btn-secondary">
-                  Login with Google</button>
-      </div> -->
+      <div style="text-align: center; margin: 10px">OR</div>
+      <div style="display: flex; justify-content: space-around">
+          <button mat-raised-button (click)="onLoginWithGoogle()" color="accent"  style="flex: 1">
+          <img src="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" width="20" height="20"/> Login with Google
+        </button>
+      </div>
+
     </form>
   </div>
 

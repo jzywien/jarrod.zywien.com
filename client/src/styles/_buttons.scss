@@ -4,13 +4,13 @@
 
 @mixin buttonBase {
   font-family: $brandFont;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: $semiBoldWeight;
-  padding: 15px 80px;
+  padding: 8px 80px;
   margin: 25px 0 0;
-  border-radius: 100px;
+  border-radius: 8px;
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   @media(max-width: $break-small){
@@ -22,25 +22,25 @@
 
 .btn-primary {
   @include buttonBase;
-  border: 2px solid $lightOrange;
-  background-color: transparent;
-  color: $orange;
+  border: 2px solid $lightGray;
+  color: $navy;
+  background-color: rgba($lightGray, 0.8);
   &:hover {
     cursor: pointer;
-    background-color: $orange;
-    border: 2px solid $orange;
-    color: $white;
+    background-color: $lightGray;
+    border: 2px solid $lightGray;
+    color: $navy;
   }
   &:focus{
-    background-color: $orange;
-    border: 2px solid $orange;
-    color: $white;
+    background-color: $lightGray;
+    border: 2px solid $lightGray;
+    color: $navy;
     -webkit-box-shadow: 0 0 12px $teal;
     -moz-box-shadow: 0 0 12px $teal;
     box-shadow: 0 0 12px $teal;
     border-color: $teal;
     outline: 0 none;
-    -webkit-tap-highlight-color: $orange;
+    -webkit-tap-highlight-color: $lightGray;
   }
   &.small{
     padding: 15px 40px;
@@ -56,17 +56,17 @@
     cursor: pointer;
     background-color: $white;
     border: 2px solid $white;
-    color: $orange;
+    color: $darkGray;
   }
   &:focus{
     background-color: $white;
     border: 2px solid $white;
-    color: $orange;
+    color: $darkGray;
     -webkit-box-shadow: 0 0 12px $teal;
     -moz-box-shadow: 0 0 12px $teal;
     box-shadow: 0 0 12px $teal;
     border-color: $teal;
     outline: 0 none;
-    -webkit-tap-highlight-color: $lightOrange;
+    -webkit-tap-highlight-color: $lightGray;
   }
 }

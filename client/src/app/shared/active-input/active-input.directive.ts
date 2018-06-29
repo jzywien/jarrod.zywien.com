@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener, HostBinding, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[activeInput]',
+  selector: 'input[activeInput], select[activeInput], textarea[activeInput]',
   })
 export class ActiveInputDirective {
 
