@@ -1,0 +1,22 @@
+{
+  "name": "www.zywien.com",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "node server/app.js",
+    "build": "cd client && yarn build:prod && cd ..",
+    "deploy": "yarn build && yarn deploy:gcloud",
+    "deploy:gcloud": "gcloud app deploy --project jzywien"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^6.0.8"
+  }
+}
