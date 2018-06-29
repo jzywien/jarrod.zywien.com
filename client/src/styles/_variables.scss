@@ -1,0 +1,35 @@
+$brandFont: 'Courier New';
+
+//Font Weights
+$regularWeight: 400;
+$mediumWeight: 500;
+$semiBoldWeight: 600;
+$boldWeight: 700;
+
+//Brand Colors
+$navy:        #00253B;
+$blue:        #154B65;
+$orange:      #E85D43;
+$mint:        #A5D2C1;
+$lightOrange: #FF9246;
+$teal:        #4AA9A5;
+$lightBlue:   #5CB0D2;
+$white:       #FFFFFF;
+$offWhite:    #F4F4F4;
+$lightGray:   #EBEBEB;
+$medGray:     #93A4AF;
+$black:       #000000;
+$magenta:			#D53181;
+$purple:			#7F47AB;
+
+//Utility Colors
+$green: #70BF6C;
+$red: #E53434;
+$link: #16769E;
+
+//Breakpoints
+$break-xsmall: 400px;
+$break-small: 768px;
+$break-medium: 991px;
+$break-large: 1030px;
+$break-xlarge: 1300px;

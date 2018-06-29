@@ -1,0 +1,91 @@
+//Gradient Backgrounds
+
+//mint to blue
+.mintGradient{
+	background: $mint;
+	background: -moz-linear-gradient(-45deg, $mint 0%, $lightBlue 100%);
+	background: -webkit-linear-gradient(-45deg, $mint 0%, $lightBlue 100%);
+	background: linear-gradient(135deg, $mint 0%, $lightBlue 100%);
+	background: -ms-linear-gradient(135deg, $mint 0%, $lightBlue 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mint', endColorstr='$lightBlue',GradientType=1 );
+}
+
+//mint to teal
+.tealGradient{
+	background: $teal;
+	background: -moz-linear-gradient(-45deg, $mint 0%, $teal 100%);
+	background: -webkit-linear-gradient(-45deg, $mint 0%, $teal 100%);
+	background: linear-gradient(135deg, $mint 0%, $teal 100%);
+	background: -ms-linear-gradient(135deg, $mint 0%, $teal 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mint', endColorstr='$teal',GradientType=1 );
+}
+
+//blue to teal
+.blueGradient{
+	background: $lightBlue;
+	background: -moz-linear-gradient(-45deg, $lightBlue 0%, $teal 100%);
+	background: -webkit-linear-gradient(-45deg, $lightBlue 0%, $teal 100%);
+	background: linear-gradient(135deg, $lightBlue 0%, $teal 100%);
+	background: -ms-linear-gradient(135deg, $lightBlue 0%, $teal 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightBlue', endColorstr='$teal',GradientType=1 );
+}
+
+//light orange to orange
+.orangeGradient{
+	background: $lightOrange;
+	background: -moz-linear-gradient(-45deg, $lightOrange 0%, $orange 100%);
+	background: -webkit-linear-gradient(-45deg, $lightOrange 0%, $orange 100%);
+	background: linear-gradient(135deg, $lightOrange 0%, $orange 100%);
+	background: -ms-linear-gradient(135deg, $lightOrange 0%, $orange 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightOrange', endColorstr='$orange',GradientType=1 );
+}
+
+//blue to navy
+.navyGradient{
+	background: $blue;
+	background: -moz-linear-gradient(-45deg, $blue 0%, $navy 100%);
+	background: -webkit-linear-gradient(-45deg, $blue 0%, $navy 100%);
+	background: linear-gradient(135deg, $blue 0%, $navy 100%);
+	background: -ms-linear-gradient(135deg, $blue 0%, $navy 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$navy',GradientType=1 );
+}
+
+//blue to purple
+.blurpleGradient{
+	background: $lightBlue;
+	background: -moz-linear-gradient(-45deg, $lightBlue 0%, $purple 100%);
+	background: -webkit-linear-gradient(-45deg, $lightBlue 0%, $purple 100%);
+	background: linear-gradient(135deg, $lightBlue 0%, $purple 100%);
+	background: -ms-linear-gradient(135deg, $lightBlue 0%, $purple 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightBlue', endColorstr='$purple',GradientType=1 );
+}
+
+//purple to orange
+.oranpleGradient{
+	background: $orange;
+	background: -moz-linear-gradient(-45deg, $orange 0%, $purple 100%);
+	background: -webkit-linear-gradient(-45deg, $orange 0%, $purple 100%);
+	background: linear-gradient(135deg, $orange 0%, $purple 100%);
+	background: -ms-linear-gradient(135deg, $orange 0%, $purple 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$orange', endColorstr='$purple',GradientType=1 );
+}
+
+//magenta to purple
+.magenpleGradient{
+	background: $magenta;
+	background: -moz-linear-gradient(-45deg, $magenta 0%, $purple 100%);
+	background: -webkit-linear-gradient(-45deg, $magenta 0%, $purple 100%);
+	background: linear-gradient(135deg, $magenta 0%, $purple 100%);
+	background: -ms-linear-gradient(135deg, $magenta 0%, $purple 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$magenta', endColorstr='$purple',GradientType=1 );
+}
+
+//light orange to magenta
+.lightOrangeMagentaGradient{
+	background: $lightOrange;
+	background: -moz-linear-gradient(-45deg, $lightOrange 0%, $magenta 100%);
+	background: -webkit-linear-gradient(-45deg, $lightOrange 0%, $magenta 100%);
+	background: linear-gradient(135deg, $lightOrange 0%, $magenta 100%);
+	background: -ms-linear-gradient(135deg, $lightOrange 0%, $magenta 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightOrange', endColorstr='$magenta',GradientType=1 );
+}
