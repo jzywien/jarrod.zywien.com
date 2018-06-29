@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server/app.js",
+    "start:client": "cd client && yarn start",
     "build": "cd client && yarn build:prod && cd ..",
     "deploy": "yarn build && yarn deploy:gcloud",
     "deploy:gcloud": "gcloud app deploy --project jzywien"
