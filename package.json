@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "node server/app.js",
     "start:client": "cd client && yarn start",
-    "start:all": "concurrently \"yarn start:server\" \"yarn start:client\"",
+    "start:all": "concurrently \"yarn start\" \"yarn start:client\"",
     "build": "cd client && yarn build:prod && cd ..",
     "deploy": "yarn build && yarn deploy:gcloud",
     "deploy:gcloud": "gcloud app deploy --project jzywien"
