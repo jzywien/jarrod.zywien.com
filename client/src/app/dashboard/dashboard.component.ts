@@ -23,6 +23,7 @@ export class DashboardComponent implements OnInit {
 
   async fetchData() {
     const response = await this.dasboardService.get();
+    console.log(response);
   }
 
 }
