@@ -31,6 +31,14 @@ export class AuthService {
     return this._firebaseAuth.auth.signInWithRedirect(provider);
   }
 
+  async signInWithEmailAndPassword(email, password) {
+    try {
+      await this._firebaseAuth.auth.signInWithEmailAndPassword(email, password);
+      this.router.navigate(['/']);
+    } catch {
+    }
+  }
+
   isLoggedIn() {
     return this.userDetails != null;
   }

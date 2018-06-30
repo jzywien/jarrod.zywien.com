@@ -13,6 +13,7 @@ import { AuthGuard } from './auth/auth.guard';
 import { environment } from '../environments/environment';
 import { RedirectGuard } from './auth/redirect.guard';
 import { SharedModule } from './shared/shared.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AppRoutingModule,

@@ -1,9 +1,9 @@
-<form class="login-form-wrapper">
+<form class="login-form-wrapper" #form="ngForm" (ngSubmit)="loginWithEmail(form)" novalidate>
   <div class="navyGradient title">JZ</div>
   <div class="login-form">
 
 
-    <button class="social-login-button" data-provider="github" type="button">
+    <button class="social-login-button" data-provider="github" type="button" (click)="loginWithGithub()">
       <div class="social-login-button-icon"></div>
       <div class="social-login-button-text">Log in with GitHub</div>
     </button>
@@ -34,7 +34,7 @@
           </g>
         </svg>
       </span>
-      <input type="email" class="login-input" placeholder="yours@email.com" autocomplete="off" autocapitalize="off">
+      <input type="email" name="email" ngModel class="login-input" placeholder="yours@email.com" autocomplete="off" autocapitalize="off">
     </div>
     <div class="login-input-wrap">
       <span>
@@ -47,7 +47,7 @@
           </g>
         </svg>
       </span>
-      <input type="password" class="login-input" placeholder="password" autocomplete="off" autocapitalize="off">
+      <input type="password" name="password" ngModel class="login-input" placeholder="password" autocomplete="off" autocapitalize="off">
     </div>
 
     <div class="login-pane-seperator">
@@ -56,7 +56,7 @@
         </p>
       </div>
   </div>
-  <button class="orangeGradient login-submit-button">
+  <button type="submit" class="orangeGradient login-submit-button">
     <span>
       Log In
       <span>
