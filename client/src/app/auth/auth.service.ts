@@ -43,6 +43,10 @@ export class AuthService {
     return this.userDetails != null;
   }
 
+  getIdToken(): Promise<string> {
+    return this.userDetails.getIdToken(true);
+  }
+
   async logout() {
     const response = await this._firebaseAuth.auth.signOut();
     this.router.navigate(['/login']);

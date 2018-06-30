@@ -14,6 +14,9 @@ import { environment } from '../environments/environment';
 import { RedirectGuard } from './auth/redirect.guard';
 import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { DashboardService } from './dashboard/dashboard.service';
+import { FirebaseAuthInterceptor } from './auth/firebase-auth.interceptor';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AppRoutingModule,
@@ -32,7 +36,13 @@ import { FormsModule } from '@angular/forms';
   providers: [
     AuthService,
     AuthGuard,
-    RedirectGuard
+    RedirectGuard,
+    DashboardService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: FirebaseAuthInterceptor,
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })

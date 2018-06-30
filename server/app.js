@@ -4,6 +4,7 @@ const favicon = require('serve-favicon');
 const path = require('path');
 const bodyParser = require('body-parser');
 const api = require('./api');
+const validate = require('./validate');
 const DISTDIR = path.join(__dirname, '../dist');
 
 const app = express();
@@ -13,7 +14,7 @@ app.use(express.static(DISTDIR));
 app.use('/', express.static(DISTDIR));
 
 app.use(bodyParser.json());
-app.use('/api', api);
+app.use('/api', validate, api);
 
 app.use((req, res) => {
   res.sendFile(path.join(DISTDIR, 'index.html'));
