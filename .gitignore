@@ -38,5 +38,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-*/environments/environment.ts
-*/environments/environment.prod.ts
+environment.ts
+environment.prod.ts
