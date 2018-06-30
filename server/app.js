@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const express = require('express');
-const favicon = require('serve-favicon')
+const favicon = require('serve-favicon');
 const path = require('path');
 const bodyParser = require('body-parser');
 const api = require('./api');
@@ -14,6 +14,10 @@ app.use('/', express.static(DISTDIR));
 
 app.use(bodyParser.json());
 app.use('/api', api);
+
+app.use((req, res) => {
+  res.sendFile(path.join(DISTDIR, 'index.html'));
+});
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
