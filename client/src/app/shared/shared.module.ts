@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActiveInputDirective } from './active-input/active-input.directive';
+import { SocialLoginButtonComponent } from './social-button/social-login-button.component';
 
 
 @NgModule({
@@ -8,8 +9,12 @@ import { ActiveInputDirective } from './active-input/active-input.directive';
     CommonModule
   ],
   exports: [
-    ActiveInputDirective
+    ActiveInputDirective,
+    SocialLoginButtonComponent
   ],
-  declarations: [ActiveInputDirective]
+  declarations: [
+    ActiveInputDirective,
+    SocialLoginButtonComponent
+  ]
 })
 export class SharedModule { }

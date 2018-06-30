@@ -1,26 +1,37 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
-import {MatButtonModule, MatIconModule} from '@angular/material';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AuthService } from './auth/auth.service';
+import { AuthGuard } from './auth/auth.guard';
+import { environment } from '../environments/environment';
+import { RedirectGuard } from './auth/redirect.guard';
 import { SharedModule } from './shared/shared.module';
-
-
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    MatButtonModule,
-    MatIconModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
     AppRoutingModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    AuthService,
+    AuthGuard,
+    RedirectGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
