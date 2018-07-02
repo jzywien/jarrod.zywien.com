@@ -42,3 +42,5 @@ environment.ts
 environment.prod.ts
 
 server/keys/*
+
+.env

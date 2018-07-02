@@ -1,24 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit {
+  title: string = 'app';
 
-  onSubmit() {
-    return false;
-  }
-
-  onLogin() {
-    console.log('clicked');
-    return false;
-  }
-
-  onLoginWithGoogle() {
-    console.log('clicked');
-    return false;
+  ngOnInit(): void {
   }
 }

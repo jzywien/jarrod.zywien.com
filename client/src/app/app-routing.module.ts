@@ -6,8 +6,14 @@ import { AuthGuard } from './auth/auth.guard';
 import { RedirectGuard } from './auth/redirect.guard';
 
 const routes: Routes = [
-    { path: '', component: DashboardComponent, canActivate: [AuthGuard] },
-    { path: 'login', component: LoginComponent, canActivate: [RedirectGuard] }
+    { path: '', component: DashboardComponent },
+    { path: 'login', component: LoginComponent, canActivate: [RedirectGuard] },
+    {
+        path: 'payments',
+        loadChildren: './payments/payments.module#PaymentsModule',
+        canActivate: [AuthGuard]
+    },
+    { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

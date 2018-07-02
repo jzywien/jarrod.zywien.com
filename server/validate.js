@@ -1,14 +1,18 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./keys/jzywien-admin-key.json');
+const path = require('path');
+const {
+  FIREBASE_SECRETS_FILE,
+  FIREBASE_DB
+} = process.env;
+const serviceAccount = require(`./keys/${FIREBASE_SECRETS_FILE}`);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://jzywien.firebaseio.com'
+  databaseURL: FIREBASE_DB
 });
 
 const validate = async (req, res, next) => {
   const token = req.headers['authorization'];
-  console.log('***** validating *****');
 
   try {
     const decodedToken = await admin.auth().verifyIdToken(token);

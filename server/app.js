@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const _ = require('lodash');
 const express = require('express');
 const favicon = require('serve-favicon');

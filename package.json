@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "prestart": "node server/scripts/loadenv.js",
     "start": "node server/app.js",
     "start:client": "cd client && yarn start",
     "start:all": "concurrently \"yarn start\" \"yarn start:client\"",
@@ -13,7 +14,9 @@
     "deploy:gcloud": "gcloud app deploy --project jzywien"
   },
   "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
     "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "firebase-admin": "^5.12.1",
     "lodash": "^4.17.10",

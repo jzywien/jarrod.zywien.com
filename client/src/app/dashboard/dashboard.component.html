@@ -1,5 +1,9 @@
 <p>
   dashboard works!
 </p>
-<button (click)="logout()">Logout</button>
+<button *ngIf="!auth.loggedIn" (click)="login()">Login</button>
+<button *ngIf="auth.loggedIn" (click)="logout()">Logout</button>
+
+<a class="nav-link" routerLink="/payments" routerLinkActive="active" *ngIf="auth.loggedIn">Payments</a>
+
 <button (click)="fetchData()">Fetch Data</button>

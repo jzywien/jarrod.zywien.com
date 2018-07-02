@@ -26,6 +26,10 @@ export class AuthService {
     return this.user;
   }
 
+  public get loggedIn(): boolean {
+    return this.userDetails != null;
+  }
+
   signInWithGoogle() {
     const provider = new firebase.auth.GoogleAuthProvider();
     return this._firebaseAuth.auth.signInWithRedirect(provider);
@@ -39,16 +43,12 @@ export class AuthService {
     }
   }
 
-  isLoggedIn() {
-    return this.userDetails != null;
-  }
-
   getIdToken(): Promise<string> {
     return this.userDetails.getIdToken(true);
   }
 
   async logout() {
     const response = await this._firebaseAuth.auth.signOut();
-    this.router.navigate(['/login']);
+    this.router.navigate(['/']);
   }
 }
