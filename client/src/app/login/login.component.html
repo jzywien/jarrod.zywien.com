@@ -2,18 +2,8 @@
   <div class="navyGradient title">JZ</div>
   <div class="login-form">
 
-
-    <button class="social-login-button" data-provider="github" type="button" (click)="loginWithGithub()">
-      <div class="social-login-button-icon"></div>
-      <div class="social-login-button-text">Log in with GitHub</div>
-    </button>
-
-    <button class="social-login-button" data-provider="google" type="button" (click)="loginWithGoogle()">
-      <div class="social-login-button-icon"></div>
-      <div class="social-login-button-text">Log in with Google</div>
-    </button>
-
-
+    <social-login-button data-provider="github" (click)="loginWithGithub()"></social-login-button>
+    <social-login-button data-provider="google" (click)="loginWithGoogle()"></social-login-button>
 
     <div class="text-divider">
       <span>or</span>
@@ -40,6 +30,7 @@
         autocomplete="off"
         autocapitalize="off">
     </div>
+
     <div class="login-input-wrap" [ngClass]="{ 'is-invalid': f.submitted && password.invalid }">
       <span>
         <svg focusable="false" width="11px" height="14px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

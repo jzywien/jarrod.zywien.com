@@ -17,10 +17,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { DashboardService } from './dashboard/dashboard.service';
 import { FirebaseAuthInterceptor } from './auth/firebase-auth.interceptor';
+import { SocialLoginButtonComponent } from './login/social-login-button/social-login-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SocialLoginButtonComponent,
     LoginComponent,
     DashboardComponent
   ],
