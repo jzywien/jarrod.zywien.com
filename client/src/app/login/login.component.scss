@@ -1,3 +1,14 @@
+@import 'variables';
+
+:host {
+  position: absolute;
+  background: $lightGray;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
 
 .login-form-wrapper {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -41,6 +52,39 @@
     color: rgba(0,0,0,0.54);
   }
 
+  .text-divider {
+    text-align: center;
+    margin: 15px 0;
+    width: 100%;
+    span {
+      color: rgba(8,43,69,.63);
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 500;
+      position: relative;
+      text-transform: uppercase;
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        height: .0625rem;
+        border-top: .0625rem solid rgba(19,71,108,.2);
+        top: 50%;
+        width: 135px;
+      }
+
+      &:before {
+        right: 100%;
+        margin-right: 1rem;
+      }
+
+      &:after {
+        left: 100%;
+        margin-left: 1rem;
+      }
+
+    }
+  }
+
   .login-pane-seperator {
     padding-top: 15px;
   }
@@ -60,6 +104,10 @@
     -webkit-transition: border-color 0.8s;
     transition: border-color 0.8s;
     margin-bottom: 10px;
+
+    &.is-invalid {
+      border: 1px solid red;
+    }
 
     .login-input {
       border: 0;

@@ -39,11 +39,15 @@ export class AuthService {
     try {
       await this._firebaseAuth.auth.signInWithEmailAndPassword(email, password);
       this.router.navigate(['/']);
-    } catch {
+    } catch(err) {
+      console.log(err);
     }
   }
 
   getIdToken(): Promise<string> {
+    if (this.userDetails == null) {
+      throw('There is no active user');
+    }
     return this.userDetails.getIdToken(true);
   }
 
