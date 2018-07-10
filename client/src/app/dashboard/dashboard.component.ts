@@ -27,6 +27,10 @@ export class DashboardComponent implements OnInit {
     this.router.navigate(['/login']);
   }
 
+  get loggedIn() {
+    return this.auth.loggedIn;
+  }
+
   async fetchData() {
     const response = await this.dasboardService.get();
     console.log(response);
