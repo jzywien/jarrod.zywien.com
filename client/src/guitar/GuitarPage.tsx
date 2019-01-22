@@ -1,16 +1,16 @@
 import React from 'react';
-import {notes, buildScale, ScaleNames, Scales} from './guitarService';
+import {notes, buildScale, ScaleNames, standardTuning, Scales} from './guitarService';
 import Fretboard from './Fretboard';
 import './Guitar.css';
 
 type GuitarState = {
-    key: string;
+    keySig: string;
     scale: Scales;
 };
 
 class GuitarPage extends React.Component {
     state: GuitarState = {
-        key: 'C',
+        keySig: 'C',
         scale: Scales.Major
     };
 
@@ -18,23 +18,23 @@ class GuitarPage extends React.Component {
         super(props);
     }
 
-    changeKey(key: string, scale: Scales) {
+    changeKey(keySig: string, scale: Scales) {
         this.setState({
-            key,
+            keySig,
             scale
         });
     }
 
     render() {
-        const {key, scale} = this.state;
-        const scaleNotes = buildScale(key, scale);
+        const {keySig, scale} = this.state;
+        const scaleNotes = buildScale(keySig, scale);
         return (
             <>
                 <h2>Guitar Page!</h2>
                 <div className='all-notes'>
                 {notes.map((note, ndx) => (
                   <button 
-                    className={`${note === key ? 'active': ''}`}
+                    className={`${note === keySig ? 'active': ''}`}
                     key={`note-name-${ndx}`} 
                     onClick={() => this.changeKey(note, scale)}>
                         {note}
@@ -48,7 +48,7 @@ class GuitarPage extends React.Component {
                     return <button 
                         className={`${scale === scl ? 'active': ''}`}
                         key={`scale-name-${ndx}`}
-                        onClick={() => this.changeKey(key, scl)}>{scaleName}</button>                    
+                        onClick={() => this.changeKey(keySig, scl)}>{scaleName}</button>                    
                 })}
                 </div>
                 
@@ -58,7 +58,11 @@ class GuitarPage extends React.Component {
                 ))}
                 </div>
 
-                <Fretboard />
+                <Fretboard 
+                    tuning={standardTuning}
+                    keySig={keySig}
+                    notes={scaleNotes}
+                />
             </>
         );
     }

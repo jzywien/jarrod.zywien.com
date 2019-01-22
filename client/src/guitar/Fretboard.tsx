@@ -1,31 +1,51 @@
 import React from 'react';
+import {dottedFrets, getNote} from './guitarService';
+import FretNote from './FretNote';
 import './Fretboard.css';
 
-const NUM_FRETS = 12;
+const NUM_FRETS = 18;
 const NUM_STRINGS = 6;
 
-const Fretboard = () => {
+type FretboardState = {
+    tuning: string[],
+    keySig: string,
+    notes: string[]
+};
+
+const getFretDotClass = (fretNum: number): string => {
+    if (fretNum % 12 === 0) return 'twodots';
+    if (dottedFrets.includes(fretNum)) return 'dot';
+    return '';
+};
+
+
+const Fretboard = (props: FretboardState) => {
+    const {tuning, notes, keySig} = props;
+    console.log(keySig);
     return (
         <div className="fretboard">
-            <ul className="fret-row">
-                <li className="string1">
-                    <span>3</span>
-                </li>
-                <li className="string2"></li>
-                <li className="string3"></li>
-                <li className="string4"></li>
-                <li className="string5"></li>
-                <li className="string6"></li>
+            <ul className="nut-row">
+                {tuning.map((note, ndx) => (
+                    <li  
+                        key={`string-tuning-${ndx}`}
+                        className={`string${ndx+1}`}>{note}</li>    
+                ))}
             </ul>
-            <ul className="fret-row">
-                <li className="string1"></li>
-                <li className="string2"></li>
-                <li className="string3"></li>
-                <li className="string4"></li>
-                <li className="string5"></li>
-                <li className="string6"></li>
-            </ul>            
-
+            {Array.from(Array(NUM_FRETS)).map((_, fretNdx) => (
+                <ul 
+                    key={`fret-${fretNdx}`}
+                    className={`fret-row ${getFretDotClass(fretNdx+1)}`}>
+                    {Array.from(Array(NUM_STRINGS)).map((_, ndx) => (
+                        <FretNote 
+                            key={`fret-${fretNdx}-string-${ndx}`}
+                            keySig={keySig}
+                            className={`string${ndx+1}`}
+                            keyNotes={notes}
+                            stringNote={tuning[ndx]}
+                            fretNum={fretNdx+1} />
+                    ))}
+                </ul>
+            ))}
         </div>
     );
 };

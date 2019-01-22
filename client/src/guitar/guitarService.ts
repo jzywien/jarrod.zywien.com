@@ -1,5 +1,9 @@
 export const notes: string[] = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B'];
+const doubleNotes: string[] = notes.concat(notes);
 
+export const standardTuning: string[] = ['E', 'A', 'D', 'G', 'B', 'E'];
+export const dropDTuning: string[] = ['D', 'A', 'D', 'G', 'B', 'E'];
+export const dottedFrets: number[] = [3, 5, 7, 9, 12, 15, 17, 19, 21, 24];
 export enum Scales {
     Major,
     NaturalMinor,
@@ -12,7 +16,6 @@ export const ScaleNames = new Map<Scales, string>([
     [Scales.HarmonicMinor, 'Harmonic Minor']
 ]);
 
-const doubleNotes: string[] = notes.concat(notes);
 
 const getScaleIntervals = (scale: Scales): number[] => {
     switch(scale) {
@@ -21,6 +24,12 @@ const getScaleIntervals = (scale: Scales): number[] => {
         case Scales.Major: 
         default: return [2,2,1,2,2,2,1];
     }
+};
+
+export const getNote = (startNote: string, fretNum: number): string => {
+    const note = doubleNotes.indexOf(startNote);
+    const notelist = doubleNotes.slice(note);
+    return notelist[fretNum % 12];
 };
 
 const getScaleDistances = (scale: Scales): number[] => {
