@@ -1,72 +1,64 @@
 import React from 'react';
-import {notes, buildScale} from './guitarService';
+import {notes, buildScale, ScaleNames, Scales} from './guitarService';
 import './Guitar.css';
 
 type GuitarState = {
     key: string;
-    scale: string;
+    scale: Scales;
 };
 
 class Guitar extends React.Component {
     state: GuitarState = {
         key: 'C',
-        scale: 'major'
+        scale: Scales.Major
     };
 
     constructor(props: any) {
         super(props);
     }
 
-    changeKey(key: string) {
+    changeKey(key: string, scale: Scales) {
         this.setState({
-            ...this.state,
-            key
+            key,
+            scale
         });
     }
 
     render() {
-        const {key} = this.state;
-        const intervals = [2,2,1,2,2,2,1];
-        const scale = buildScale(key, 'major');
-        console.log(scale);
+        const {key, scale} = this.state;
+        const scaleNotes = buildScale(key, scale);
         return (
             <>
                 <h2>Guitar Page!</h2>
-                <div>
-                {notes.map(note => (
-                  <button onClick={() => this.changeKey(note)}>{note}</button>  
+                <div className='all-notes'>
+                {notes.map((note, ndx) => (
+                  <button 
+                    className={`${note === key ? 'active': ''}`}
+                    key={`note-name-${ndx}`} 
+                    onClick={() => this.changeKey(note, scale)}>
+                        {note}
+                    </button>  
                 ))}
                 </div>
+
+                <div className='all-notes'>
+                {Array.from(ScaleNames.entries()).map((entry, ndx) => {
+                    const [scl, scaleName] = entry;
+                    return <button 
+                        className={`${scale === scl ? 'active': ''}`}
+                        key={`scale-name-${ndx}`}
+                        onClick={() => this.changeKey(key, scl)}>{scaleName}</button>                    
+                })}
+                </div>
+                
                 <div className="scale-notes">
-                {scale.map((val, index) => (
-                    <span>{val}</span>
+                {scaleNotes.map((val, ndx) => (
+                    <span key={`scale-note-${ndx}`}>{val}</span>
                 ))}
                 </div>
             </>
         );
     }
 }
-
-
-// const Guitar = () => {
-
-//     const buildScale = (key: string, scale: number[]) => {
-    
-//         const notelist = allNotes.slice(allNotes.indexOf(key));
-//         const scaleNotes = [];
-//         for(let i = 0, noteNdx = 0; i < 7; ++i) {
-//             const note = notelist[noteNdx];
-//             scaleNotes.push(note);
-//             noteNdx += scale[i];
-//         }
-//         return scaleNotes;
-//     };
-      
-
-//     return (
-//         <h2>Guitar Page!</h2>
-
-//     );
-// }
 
 export default Guitar;
