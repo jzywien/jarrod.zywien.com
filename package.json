@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
     "prestart": "node server/scripts/loadenv.js",
     "start": "node server/app.js",
     "start:client": "cd client && yarn start",

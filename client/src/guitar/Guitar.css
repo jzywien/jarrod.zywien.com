@@ -1,0 +1,3 @@
+.scale-notes span:not(:last-child) {
+    margin-right: 1em;
+}
