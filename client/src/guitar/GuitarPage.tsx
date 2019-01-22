@@ -1,5 +1,6 @@
 import React from 'react';
 import {notes, buildScale, ScaleNames, Scales} from './guitarService';
+import Fretboard from './Fretboard';
 import './Guitar.css';
 
 type GuitarState = {
@@ -7,7 +8,7 @@ type GuitarState = {
     scale: Scales;
 };
 
-class Guitar extends React.Component {
+class GuitarPage extends React.Component {
     state: GuitarState = {
         key: 'C',
         scale: Scales.Major
@@ -56,9 +57,11 @@ class Guitar extends React.Component {
                     <span key={`scale-note-${ndx}`}>{val}</span>
                 ))}
                 </div>
+
+                <Fretboard />
             </>
         );
     }
 }
 
-export default Guitar;
+export default GuitarPage;

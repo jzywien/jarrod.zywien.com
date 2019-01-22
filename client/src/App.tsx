@@ -10,13 +10,13 @@ const Loading = () => (
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className = "App">
       <Route exact path="/" component={Loadable({
-        loader: () => import('./home/Home'),
+        loader: () => import('./home/HomePage'),
         loading: Loading
       })} />
       <Route path="/guitar" component={Loadable({
-        loader: () => import('./guitar/Guitar'),
+        loader: () => import('./guitar/GuitarPage'),
         loading: Loading
       })} />
     </div>

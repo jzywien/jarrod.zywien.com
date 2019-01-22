@@ -1,0 +1,93 @@
+.fretboard {
+    width: 240px;
+}
+
+.fretboard .fret {
+    border: 1px solid black;
+    width: 3em;
+    height: 1em;
+}
+
+.fretboard .fret .interval {
+
+}
+
+.fret-row:first-child {
+    border-top: 15px solid #898079;
+}
+
+.fret-row {
+    width: 240px;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid #898079;
+}
+
+.fret-row li {
+    position: relative;
+    height: 70px;
+    width: 40px;
+    background-color: #ead6be;
+}
+
+.fret-row li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #bcaeae;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 6px;
+    height: 75px;
+}
+
+.fret-row .string1::after {
+    width: 6px;
+}
+
+.fret-row .string2::after {
+    width: 5px;
+}
+
+.fret-row .string3::after {
+    width: 4px;
+}
+
+.fret-row .string4::after {
+    width: 3px;
+}
+
+.fret-row .string5::after {
+    width: 2px;
+}
+
+.fret-row .string6::after {
+    width: 1px;
+}
+
+
+.fret-row li::before {
+    content: "";
+}
+
+.fret-row li span {
+    position: absolute;
+    font-weight: bold;
+    border-radius: 50%;
+    color: black;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #ddd;
+    z-index: 1000;
+    top:24px;
+    left: 8px;
+    text-align: center;
+}
