@@ -1,0 +1,38 @@
+{
+  "account": "Jarrod-Zywien_moodys",
+  "period_start": "2026-01-01",
+  "period_through": "2026-10-02",
+  "snapshot_utc": "2026-10-02T14:02:46.614664+00:00",
+  "metrics": {
+    "authored_created": 325,
+    "authored_merged": 305,
+    "authored_open": 3,
+    "authored_closed_unmerged": 17,
+    "authored_repositories": 11,
+    "submitted_reviews": 880,
+    "reviewed_prs": 773,
+    "peer_submitted_reviews": 856,
+    "peer_reviewed_prs": 757,
+    "approved_review_records": 734,
+    "approved_prs": 730,
+    "review_states": {
+      "APPROVED": 734,
+      "COMMENTED": 72,
+      "DISMISSED": 61,
+      "CHANGES_REQUESTED": 13
+    },
+    "inline_comments": 66,
+    "inline_commented_prs": 34,
+    "inline_peer_comments": 51,
+    "discussion_comments": 24,
+    "discussion_commented_prs": 24,
+    "discussion_peer_comments": 12,
+    "any_review_or_comment_prs": 790
+  },
+  "employee_context": {
+    "title": "VP - Machine Learning Engineer",
+    "milestone": "Team launched Jenny to Moody\u2019s Ratings at the end of September 2026",
+    "launch_audience": "More than 5,000 users",
+    "source": "Employee-provided context; audience is not measured active usage"
+  }
+}

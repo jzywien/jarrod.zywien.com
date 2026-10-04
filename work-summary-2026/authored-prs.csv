@@ -1,0 +1,326 @@
+repository,number,title,url,created_at,merged_at,status
+MRT-Jenny/ai-base-project,1,Feature/app hardening 2,https://github.com/MRT-Jenny/ai-base-project/pull/1,2026-02-23T15:44:18Z,2026-02-23T15:44:52Z,merged
+MRT-Jenny/ai-base-project,2,feat: add chat interface with OpenAI integration,https://github.com/MRT-Jenny/ai-base-project/pull/2,2026-02-23T19:51:21Z,,open
+Moodys-Investors-Service/ai-model-gateway,63,updates litellm image,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/63,2026-01-13T15:48:47Z,2026-01-13T16:28:14Z,merged
+Moodys-Investors-Service/ai-model-gateway,66,adds log warning for moody’s auth,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/66,2026-01-20T16:19:57Z,2026-01-20T17:24:18Z,merged
+Moodys-Investors-Service/ai-model-gateway,69,feat: updates litellm to 1.81.0-stable,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/69,2026-01-28T16:11:38Z,2026-01-28T16:12:21Z,merged
+Moodys-Investors-Service/ai-model-gateway,75,fix: updates to 1.81.0-patch2 to fix ui loading issues,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/75,2026-02-04T15:32:57Z,2026-02-04T15:33:29Z,merged
+Moodys-Investors-Service/ai-model-gateway,82,update litellm to 1.81.3-stable,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/82,2026-02-09T15:00:11Z,2026-02-09T15:07:40Z,merged
+Moodys-Investors-Service/ai-model-gateway,85,updates litellm to 1.81.3-stable,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/85,2026-02-10T16:44:39Z,2026-02-10T16:49:09Z,merged
+Moodys-Investors-Service/ai-model-gateway,87,Fixes litellm request/response logging,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/87,2026-02-11T15:50:32Z,2026-02-11T15:53:31Z,merged
+Moodys-Investors-Service/ai-model-gateway,88,updates otel config to turn off message logging for otel callback,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/88,2026-02-11T16:25:53Z,2026-02-11T16:31:54Z,merged
+Moodys-Investors-Service/ai-model-gateway,92,updates to latest stable 1.81.3 version w/ sonnet & opus fixes,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/92,2026-02-18T15:33:57Z,2026-02-18T15:39:18Z,merged
+Moodys-Investors-Service/ai-model-gateway,93,Adds Gemini 3.1 Pro to gateway,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/93,2026-02-19T17:40:29Z,2026-02-19T18:27:30Z,merged
+Moodys-Investors-Service/ai-model-gateway,95,bugfix: removes output_config to fix error in vertex ai,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/95,2026-02-23T18:24:18Z,2026-02-23T18:51:48Z,merged
+Moodys-Investors-Service/ai-model-gateway,96,chore: update litellm to 1.18.12-stable,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/96,2026-02-23T20:14:13Z,2026-02-23T20:21:11Z,merged
+Moodys-Investors-Service/ai-model-gateway,109,feat: adds gpt-5.4 and gpt-5.4-pro models,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/109,2026-03-05T18:44:25Z,2026-03-05T18:56:00Z,merged
+Moodys-Investors-Service/ai-model-gateway,111,feat: updates litellm to 1.82.0-patch5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/111,2026-03-12T15:33:02Z,2026-03-12T18:09:28Z,merged
+Moodys-Investors-Service/ai-model-gateway,115,feat: adds gpt-image-1.5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/115,2026-03-24T18:53:19Z,2026-03-24T19:03:19Z,merged
+Moodys-Investors-Service/ai-model-gateway,116,fix: fixes snyk vulns,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/116,2026-03-26T15:42:58Z,2026-03-26T15:48:29Z,merged
+Moodys-Investors-Service/ai-model-gateway,123,chore: update LiteLLM version to 1.83.7,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/123,2026-04-20T15:30:07Z,2026-04-20T15:39:37Z,merged
+Moodys-Investors-Service/ai-model-gateway,128,"Chore: remove unneeded models, add gpt 5.5",https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/128,2026-04-23T15:14:29Z,2026-04-24T19:03:10Z,merged
+Moodys-Investors-Service/ai-model-gateway,129,feat: adds gpt image 2,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/129,2026-04-27T13:26:09Z,2026-04-27T13:27:12Z,merged
+Moodys-Investors-Service/ai-model-gateway,131,feat: update litellm to 1.83.14-stable.patch.2,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/131,2026-05-07T19:44:35Z,2026-05-08T13:34:17Z,merged
+Moodys-Investors-Service/ai-model-gateway,135,"Revert ""Revert ""Revert ""Revert ""feat: update litellm to 1.83.14-stable.patch.2""""""""",https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/135,2026-05-08T18:54:09Z,2026-05-08T18:54:30Z,merged
+Moodys-Investors-Service/ai-model-gateway,136,chore: update to litellm 1.84.0,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/136,2026-05-14T14:51:32Z,2026-05-14T14:52:53Z,merged
+Moodys-Investors-Service/ai-model-gateway,138,fix: make response logs show up in gateway again,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/138,2026-05-26T14:25:09Z,2026-05-26T14:25:46Z,merged
+Moodys-Investors-Service/ai-model-gateway,139,chore: update litellm to 1.85.2,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/139,2026-05-27T15:25:36Z,2026-05-27T15:31:53Z,merged
+Moodys-Investors-Service/ai-model-gateway,146,"Revert ""Merge pull request #144 from Moodys-Investors-Service/fix/add…",https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/146,2026-06-03T18:45:35Z,,closed_unmerged
+Moodys-Investors-Service/ai-model-gateway,163,feat: adds claude-fable-5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/163,2026-06-09T20:54:42Z,,closed_unmerged
+Moodys-Investors-Service/ai-model-gateway,165,fix: increases resources for gateway,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/165,2026-06-10T15:49:02Z,2026-06-10T15:49:51Z,merged
+Moodys-Investors-Service/ai-model-gateway,167,hotfix: remove http startup probe for testing,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/167,2026-06-10T19:14:42Z,2026-06-10T19:25:11Z,merged
+Moodys-Investors-Service/ai-model-gateway,177,feat: updates litellm to 1.89.5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/177,2026-07-01T18:05:19Z,2026-07-01T18:11:28Z,merged
+Moodys-Investors-Service/ai-model-gateway,190,feature: update litellm to v1.92.0,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/190,2026-07-15T14:54:47Z,2026-07-15T15:51:34Z,merged
+Moodys-Investors-Service/ai-model-gateway,191,"Revert ""feature: update litellm to v1.92.0""",https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/191,2026-07-15T18:02:55Z,2026-07-15T18:06:32Z,merged
+Moodys-Investors-Service/ai-model-gateway,192,feature: removes Moodys-Authorization header and okta support,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/192,2026-07-16T14:55:51Z,2026-07-16T15:38:29Z,merged
+Moodys-Investors-Service/ai-model-gateway,193,chore: remove debug log level and debug traces,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/193,2026-07-16T19:14:44Z,2026-07-16T19:18:34Z,merged
+Moodys-Investors-Service/ai-model-gateway,194,feat: adds opus 5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/194,2026-07-27T12:31:59Z,2026-07-27T13:36:11Z,merged
+Moodys-Investors-Service/ai-model-gateway,195,fix: fixes traefik config,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/195,2026-07-27T14:01:57Z,2026-07-27T14:02:48Z,merged
+Moodys-Investors-Service/ai-model-gateway,196,feat: use read replica for read-only db queries,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/196,2026-08-10T15:00:49Z,2026-08-10T15:15:28Z,merged
+Moodys-Investors-Service/ai-model-gateway,197,feat: set read replica env vars for higher envs,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/197,2026-08-10T17:53:29Z,2026-08-11T00:14:12Z,merged
+Moodys-Investors-Service/ai-model-gateway,205,Add GPT Image 2.5 Flare and Sunburst models,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/205,2026-09-09T17:47:27Z,2026-09-09T18:24:54Z,merged
+Moodys-Investors-Service/ai-model-gateway,207,feature: update to litellm 1.101.0,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/207,2026-09-17T16:29:49Z,2026-09-17T16:37:18Z,merged
+Moodys-Investors-Service/ai-model-gateway,208,fix: adds valkey secret to kustomization,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/208,2026-09-17T16:55:32Z,2026-09-17T17:04:16Z,merged
+Moodys-Investors-Service/ai-model-gateway,209,feat: adds claude-opus-5-5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/209,2026-09-22T20:42:54Z,2026-09-22T20:47:34Z,merged
+Moodys-Investors-Service/ai-model-gateway,211,fix: fixes pricing for claude models on gcp,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/211,2026-09-23T18:31:21Z,2026-09-23T18:36:15Z,merged
+Moodys-Investors-Service/ai-model-gateway,215,feat: adds claude-sonnet-5-5,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/215,2026-09-28T20:24:43Z,2026-09-28T20:26:31Z,merged
+Moodys-Investors-Service/ai-model-gateway,216,fix: add us. for regional inference,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/216,2026-09-28T20:39:31Z,2026-09-28T20:41:16Z,merged
+Moodys-Investors-Service/ai-model-gateway,217,fix: remove bedrock sonnet-5-5 until regional endpoint references are up,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/217,2026-09-28T21:11:59Z,2026-09-28T21:17:03Z,merged
+Moodys-Investors-Service/ai-model-gateway,218,fix: fixes region for opus models,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/218,2026-09-29T16:23:51Z,2026-09-29T16:46:59Z,merged
+Moodys-Investors-Service/ai-model-gateway,219,feat: adds gpt-6.1-sol,https://github.com/Moodys-Investors-Service/ai-model-gateway/pull/219,2026-09-29T19:07:43Z,2026-09-29T19:11:18Z,merged
+Moodys-Investors-Service/bifrost,1,Feature/initial implementation,https://github.com/Moodys-Investors-Service/bifrost/pull/1,2026-07-24T15:47:51Z,2026-07-24T15:55:46Z,merged
+Moodys-Investors-Service/bifrost,2,fix: attempts fix at k8s config for service account,https://github.com/Moodys-Investors-Service/bifrost/pull/2,2026-07-24T16:19:51Z,2026-07-24T16:29:01Z,merged
+Moodys-Investors-Service/bifrost,3,update k8s config,https://github.com/Moodys-Investors-Service/bifrost/pull/3,2026-07-24T16:55:04Z,2026-07-27T13:07:50Z,merged
+Moodys-Investors-Service/bifrost,4,fix: enable ssl mode in dev,https://github.com/Moodys-Investors-Service/bifrost/pull/4,2026-07-27T13:36:26Z,2026-07-27T13:40:03Z,merged
+Moodys-Investors-Service/bifrost,5,fix: fixes s3 connection info,https://github.com/Moodys-Investors-Service/bifrost/pull/5,2026-07-27T15:27:44Z,2026-07-27T15:55:40Z,merged
+Moodys-Investors-Service/bifrost,6,chore: remove s3 storage for now,https://github.com/Moodys-Investors-Service/bifrost/pull/6,2026-07-27T18:24:19Z,2026-07-27T18:25:09Z,merged
+Moodys-Investors-Service/bifrost,7,fix: fixes health endpoints,https://github.com/Moodys-Investors-Service/bifrost/pull/7,2026-07-27T18:43:49Z,2026-07-27T18:48:34Z,merged
+Moodys-Investors-Service/bifrost,8,linkerd access from service account,https://github.com/Moodys-Investors-Service/bifrost/pull/8,2026-07-27T19:00:48Z,2026-07-27T19:01:19Z,merged
+Moodys-Investors-Service/bifrost,9,fix: attempt to fix deployment health check access,https://github.com/Moodys-Investors-Service/bifrost/pull/9,2026-07-28T14:29:05Z,2026-07-28T17:04:57Z,merged
+Moodys-Investors-Service/bifrost,10,fix: fixes azure provider connection by adding azure cli,https://github.com/Moodys-Investors-Service/bifrost/pull/10,2026-07-29T14:18:29Z,2026-07-29T14:26:01Z,merged
+Moodys-Investors-Service/bifrost,11,fix: updates service account name to bifrost IAM role,https://github.com/Moodys-Investors-Service/bifrost/pull/11,2026-07-29T19:56:48Z,2026-07-30T13:20:31Z,merged
+Moodys-Investors-Service/bifrost,12,chore: add remaining models for testing,https://github.com/Moodys-Investors-Service/bifrost/pull/12,2026-07-30T15:15:13Z,2026-07-30T15:53:38Z,merged
+Moodys-Investors-Service/bifrost,13,fix: fixes azure model and codex auto review,https://github.com/Moodys-Investors-Service/bifrost/pull/13,2026-07-30T19:16:35Z,2026-07-30T19:20:30Z,merged
+Moodys-Investors-Service/bifrost,14,fix: fixes bedrock model identification by allowing models,https://github.com/Moodys-Investors-Service/bifrost/pull/14,2026-07-30T19:40:02Z,2026-07-30T19:42:25Z,merged
+Moodys-Investors-Service/bifrost,15,chore: increases pod resources for bifrost to be closer to litellm,https://github.com/Moodys-Investors-Service/bifrost/pull/15,2026-08-03T15:30:40Z,2026-08-03T15:45:47Z,merged
+Moodys-Investors-Service/bifrost,16,chore: solidifies model list so we don't list models that aren't supp…,https://github.com/Moodys-Investors-Service/bifrost/pull/16,2026-08-03T18:16:53Z,2026-08-03T18:22:30Z,merged
+Moodys-Investors-Service/bifrost,17,feat: update to 1.6.9,https://github.com/Moodys-Investors-Service/bifrost/pull/17,2026-08-10T15:08:25Z,2026-08-10T15:14:56Z,merged
+Moodys-Investors-Service/bifrost,18,fix: don't deploy to west due to bifrost OSS issue,https://github.com/Moodys-Investors-Service/bifrost/pull/18,2026-08-19T18:46:16Z,2026-08-19T18:49:02Z,merged
+Moodys-Investors-Service/bifrost,19,Feature/bifrost 2 astra,https://github.com/Moodys-Investors-Service/bifrost/pull/19,2026-09-08T14:35:09Z,2026-09-08T14:38:02Z,merged
+Moodys-Investors-Service/bifrost,20,feature: update bifrost to 2.1.1,https://github.com/Moodys-Investors-Service/bifrost/pull/20,2026-09-11T19:04:10Z,2026-09-11T19:07:22Z,merged
+Moodys-Investors-Service/bifrost,21,feat: adds claude opus 5.5,https://github.com/Moodys-Investors-Service/bifrost/pull/21,2026-09-22T17:41:27Z,2026-09-22T17:44:25Z,merged
+Moodys-Investors-Service/bifrost,22,feature: adds gpt-6 sol and luna models,https://github.com/Moodys-Investors-Service/bifrost/pull/22,2026-09-23T17:30:11Z,2026-09-23T17:40:37Z,merged
+Moodys-Investors-Service/bifrost,23,feat: update to bifrost 2.2.2,https://github.com/Moodys-Investors-Service/bifrost/pull/23,2026-09-23T19:24:09Z,,closed_unmerged
+Moodys-Investors-Service/bifrost,24,feat: adds claude-sonnet-5-5,https://github.com/Moodys-Investors-Service/bifrost/pull/24,2026-09-28T21:58:34Z,2026-09-29T12:42:25Z,merged
+Moodys-Investors-Service/bifrost,25,Fix/fix gcp claude model region,https://github.com/Moodys-Investors-Service/bifrost/pull/25,2026-09-29T19:03:19Z,2026-09-29T19:11:24Z,merged
+Moodys-Investors-Service/bifrost,26,feat: adds gpt-image-2.5-flare and gpt-image-2.5-sunburst,https://github.com/Moodys-Investors-Service/bifrost/pull/26,2026-09-30T14:25:17Z,2026-09-30T14:57:11Z,merged
+Moodys-Investors-Service/bifrost,27,"fix: remove opus 4.7+ from east5, use global",https://github.com/Moodys-Investors-Service/bifrost/pull/27,2026-09-30T17:21:47Z,2026-09-30T18:15:33Z,merged
+Moodys-Investors-Service/bifrost,28,Feature/bifrost 2 2 4,https://github.com/Moodys-Investors-Service/bifrost/pull/28,2026-10-02T13:30:37Z,2026-10-02T13:36:59Z,merged
+Moodys-Investors-Service/cml-lookup-mcp-ui,1,Feature/make mcp app,https://github.com/Moodys-Investors-Service/cml-lookup-mcp-ui/pull/1,2026-04-27T18:35:19Z,2026-05-15T16:28:30Z,merged
+Moodys-Investors-Service/devx-ai-api,98,Updates Model Key to use correct provider name,https://github.com/Moodys-Investors-Service/devx-ai-api/pull/98,2026-06-11T18:20:16Z,,open
+Moodys-Investors-Service/emtn-actions,348,feat: Implements uv support for python projects,https://github.com/Moodys-Investors-Service/emtn-actions/pull/348,2026-05-28T14:14:48Z,,closed_unmerged
+Moodys-Investors-Service/emtn-actions,353,Feature: Implements emtn-actions ci/cd pipeline for Python UV builds,https://github.com/Moodys-Investors-Service/emtn-actions/pull/353,2026-05-29T13:57:11Z,2026-05-29T15:04:39Z,merged
+Moodys-Investors-Service/emtn-actions,369,hotfix: restore uv unit tests that was deleted by previous commit,https://github.com/Moodys-Investors-Service/emtn-actions/pull/369,2026-06-16T16:17:19Z,,closed_unmerged
+Moodys-Investors-Service/emtn-actions,370,hotfix: restore uv unit tests that was deleted by previous commit,https://github.com/Moodys-Investors-Service/emtn-actions/pull/370,2026-06-16T16:23:28Z,2026-06-16T16:30:57Z,merged
+Moodys-Investors-Service/emtn-actions,376,fix: Fail unit test step when using uv and pytest,https://github.com/Moodys-Investors-Service/emtn-actions/pull/376,2026-06-29T15:11:22Z,2026-06-29T15:38:10Z,merged
+Moodys-Investors-Service/emtn-nervous,924,Ignore snyk vuln due to LiteLLM version 1.85.2,https://github.com/Moodys-Investors-Service/emtn-nervous/pull/924,2026-06-11T15:15:38Z,2026-06-11T15:26:00Z,merged
+Moodys-Investors-Service/emtn-nervous,973,Update testPolicy.json,https://github.com/Moodys-Investors-Service/emtn-nervous/pull/973,2026-07-01T14:19:32Z,2026-07-01T14:30:52Z,merged
+Moodys-Investors-Service/emtn-nervous,1006,Update testPolicy.json,https://github.com/Moodys-Investors-Service/emtn-nervous/pull/1006,2026-07-27T12:57:28Z,,closed_unmerged
+Moodys-Investors-Service/emtn-nervous,1023,Adds vuln exception for external component,https://github.com/Moodys-Investors-Service/emtn-nervous/pull/1023,2026-09-15T15:00:58Z,,open
+Moodys-Investors-Service/jenkins-docker-images,43,updates litellm to 1.80.11-stable,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/43,2026-01-13T15:13:42Z,2026-01-13T15:35:49Z,merged
+Moodys-Investors-Service/jenkins-docker-images,45,updates litellm to v1.81.0-stable,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/45,2026-01-28T14:44:41Z,2026-01-28T15:31:07Z,merged
+Moodys-Investors-Service/jenkins-docker-images,46,update to patch 2 which helps with ui issues,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/46,2026-02-04T14:36:36Z,2026-02-04T15:25:59Z,merged
+Moodys-Investors-Service/jenkins-docker-images,47,Adds LiteLLM 1.81.3-stable,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/47,2026-02-09T14:50:33Z,2026-02-09T14:52:05Z,merged
+Moodys-Investors-Service/jenkins-docker-images,49,Updates LiteLLM to version 1.81.3-stable.sonnet-4-6,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/49,2026-02-18T15:04:07Z,2026-02-18T15:15:13Z,merged
+Moodys-Investors-Service/jenkins-docker-images,50,Adds litellm 1.81.12-stable,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/50,2026-02-23T18:58:43Z,2026-02-23T19:06:39Z,merged
+Moodys-Investors-Service/jenkins-docker-images,53,Adds Litellm v1.82.0.patch5 which is the latest stable version,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/53,2026-03-12T15:28:39Z,2026-03-12T15:29:59Z,merged
+Moodys-Investors-Service/jenkins-docker-images,54,Adds Litellm v1.82.0-stable.patch5 which is the latest stable version,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/54,2026-03-12T15:36:27Z,2026-03-12T17:07:05Z,merged
+Moodys-Investors-Service/jenkins-docker-images,59,chore: update litellm image to 1.83.7-stable,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/59,2026-04-20T15:18:43Z,2026-04-20T15:21:43Z,merged
+Moodys-Investors-Service/jenkins-docker-images,66,feat: adds uv to base dockerfiles,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/66,2026-05-07T19:45:27Z,2026-05-07T19:59:57Z,merged
+Moodys-Investors-Service/jenkins-docker-images,67,feat: updates uv image to refer to correct image label,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/67,2026-05-07T20:18:50Z,2026-05-07T20:28:52Z,merged
+Moodys-Investors-Service/jenkins-docker-images,68,update litellm to 1.83.14-stable.patch.2,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/68,2026-05-07T20:52:10Z,2026-05-07T20:54:54Z,merged
+Moodys-Investors-Service/jenkins-docker-images,69,feat: updates litellm to 1.84.0,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/69,2026-05-14T14:21:03Z,2026-05-14T14:29:02Z,merged
+Moodys-Investors-Service/jenkins-docker-images,76,chore: adds new litellm v1.85.2 image,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/76,2026-05-27T13:33:14Z,2026-05-27T14:46:34Z,merged
+Moodys-Investors-Service/jenkins-docker-images,91,feature: adds litellm 1.89.5 version,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/91,2026-07-01T17:56:21Z,2026-07-01T17:59:23Z,merged
+Moodys-Investors-Service/jenkins-docker-images,94,feature: build litellm 1.92.0,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/94,2026-07-15T14:17:26Z,2026-07-15T14:41:45Z,merged
+Moodys-Investors-Service/jenkins-docker-images,98,Feature/add bifrost 1 6 5,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/98,2026-07-30T14:58:22Z,2026-07-30T15:13:49Z,merged
+Moodys-Investors-Service/jenkins-docker-images,99,fix: fixes build images,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/99,2026-07-30T15:25:22Z,2026-07-30T15:26:25Z,merged
+Moodys-Investors-Service/jenkins-docker-images,102,feature: add bifrost 1.6.9,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/102,2026-08-10T14:40:02Z,2026-08-10T14:46:01Z,merged
+Moodys-Investors-Service/jenkins-docker-images,109,feat: implement bifrost 2.0.0,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/109,2026-09-08T14:22:33Z,2026-09-08T14:26:47Z,merged
+Moodys-Investors-Service/jenkins-docker-images,111,feature: adds bifrost 2.1.1,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/111,2026-09-11T15:35:39Z,2026-09-11T15:40:31Z,merged
+Moodys-Investors-Service/jenkins-docker-images,112,chore: build bifrost image,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/112,2026-09-11T18:33:47Z,2026-09-11T18:36:36Z,merged
+Moodys-Investors-Service/jenkins-docker-images,113,feature: add litellm 1.101.0,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/113,2026-09-17T16:02:43Z,2026-09-17T16:15:36Z,merged
+Moodys-Investors-Service/jenkins-docker-images,115,feat: adds bifrost v2.2.2,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/115,2026-09-23T18:44:59Z,2026-09-23T18:47:30Z,merged
+Moodys-Investors-Service/jenkins-docker-images,118,feat: adds bifrost 2.2.4,https://github.com/Moodys-Investors-Service/jenkins-docker-images/pull/118,2026-10-02T13:14:12Z,2026-10-02T13:24:02Z,merged
+Moodys-Investors-Service/jenny-api,122,Don’t store messages in openai,https://github.com/Moodys-Investors-Service/jenny-api/pull/122,2026-01-05T19:46:31Z,2026-01-05T19:48:18Z,merged
+Moodys-Investors-Service/jenny-api,123,when using store=False need to include encrypted reasoning responses,https://github.com/Moodys-Investors-Service/jenny-api/pull/123,2026-01-05T20:49:59Z,2026-01-05T20:52:03Z,merged
+Moodys-Investors-Service/jenny-api,124,Store tool calls in db,https://github.com/Moodys-Investors-Service/jenny-api/pull/124,2026-01-06T17:27:59Z,2026-01-06T18:20:06Z,merged
+Moodys-Investors-Service/jenny-api,126,implements code interpreter for all models,https://github.com/Moodys-Investors-Service/jenny-api/pull/126,2026-01-08T14:49:27Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,128,Feature/code interpreter,https://github.com/Moodys-Investors-Service/jenny-api/pull/128,2026-01-08T16:02:57Z,2026-01-08T16:25:30Z,merged
+Moodys-Investors-Service/jenny-api,130,fixes input image processing in agent responses,https://github.com/Moodys-Investors-Service/jenny-api/pull/130,2026-01-09T19:38:04Z,2026-01-09T19:56:20Z,merged
+Moodys-Investors-Service/jenny-api,134,fixes issue when annotations are None,https://github.com/Moodys-Investors-Service/jenny-api/pull/134,2026-01-15T14:38:26Z,2026-01-15T14:39:15Z,merged
+Moodys-Investors-Service/jenny-api,136,Feature/auto key creation,https://github.com/Moodys-Investors-Service/jenny-api/pull/136,2026-01-15T22:39:37Z,2026-01-16T14:26:40Z,merged
+Moodys-Investors-Service/jenny-api,137,handle get_token raises ValueError when no token,https://github.com/Moodys-Investors-Service/jenny-api/pull/137,2026-01-16T14:55:52Z,2026-01-16T15:08:42Z,merged
+Moodys-Investors-Service/jenny-api,138,implements caching for api keys,https://github.com/Moodys-Investors-Service/jenny-api/pull/138,2026-01-16T16:31:02Z,2026-01-16T16:55:51Z,merged
+Moodys-Investors-Service/jenny-api,150,feat: Implements Deep Research w/ PDF generation,https://github.com/Moodys-Investors-Service/jenny-api/pull/150,2026-01-23T21:39:28Z,2026-01-23T22:09:41Z,merged
+Moodys-Investors-Service/jenny-api,151,fixes db migrations by merging multiple heads,https://github.com/Moodys-Investors-Service/jenny-api/pull/151,2026-01-27T19:58:17Z,2026-01-27T19:59:36Z,merged
+Moodys-Investors-Service/jenny-api,160,Feature/mcp apps,https://github.com/Moodys-Investors-Service/jenny-api/pull/160,2026-01-30T14:59:39Z,2026-01-30T16:38:24Z,merged
+Moodys-Investors-Service/jenny-api,163,feat: MCP Registry,https://github.com/Moodys-Investors-Service/jenny-api/pull/163,2026-02-02T15:41:05Z,2026-02-02T16:45:07Z,merged
+Moodys-Investors-Service/jenny-api,165,Feature/mcp registry tools,https://github.com/Moodys-Investors-Service/jenny-api/pull/165,2026-02-02T20:15:55Z,2026-02-02T21:19:11Z,merged
+Moodys-Investors-Service/jenny-api,169,chore: configure ruff and ty for strict linting and type checking,https://github.com/Moodys-Investors-Service/jenny-api/pull/169,2026-02-05T15:54:52Z,2026-02-05T16:24:09Z,merged
+Moodys-Investors-Service/jenny-api,172,feat: self-draining graceful shutdown for background tasks,https://github.com/Moodys-Investors-Service/jenny-api/pull/172,2026-02-06T21:58:47Z,2026-02-10T18:28:09Z,merged
+Moodys-Investors-Service/jenny-api,179,Fix Linkerd proxy terminating deep research streams during deployments,https://github.com/Moodys-Investors-Service/jenny-api/pull/179,2026-02-10T22:04:21Z,2026-02-12T19:40:11Z,merged
+Moodys-Investors-Service/jenny-api,180,Makes MCP server stateless,https://github.com/Moodys-Investors-Service/jenny-api/pull/180,2026-02-11T19:54:18Z,2026-02-11T19:55:25Z,merged
+Moodys-Investors-Service/jenny-api,194,fix: deep research footnote placement at word and URL boundaries,https://github.com/Moodys-Investors-Service/jenny-api/pull/194,2026-02-18T20:04:16Z,2026-02-18T21:28:17Z,merged
+Moodys-Investors-Service/jenny-api,195,fixes alembic migration revision numbers,https://github.com/Moodys-Investors-Service/jenny-api/pull/195,2026-02-18T22:06:02Z,2026-02-18T22:06:56Z,merged
+Moodys-Investors-Service/jenny-api,198,Implements Vertex AI Search,https://github.com/Moodys-Investors-Service/jenny-api/pull/198,2026-02-19T16:06:13Z,2026-02-19T17:08:41Z,merged
+Moodys-Investors-Service/jenny-api,202,updates location to us and ensures file exists before syncing,https://github.com/Moodys-Investors-Service/jenny-api/pull/202,2026-02-19T19:27:47Z,2026-02-19T20:51:40Z,merged
+Moodys-Investors-Service/jenny-api,263,feat: built-in MCP servers + OAuth flow Redis migration,https://github.com/Moodys-Investors-Service/jenny-api/pull/263,2026-02-24T18:22:51Z,2026-02-24T19:07:31Z,merged
+Moodys-Investors-Service/jenny-api,286,fix(mcp): pass structuredContent from MCP tool results through to UI,https://github.com/Moodys-Investors-Service/jenny-api/pull/286,2026-02-26T22:16:04Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,287,fix(api): enable structured content for MCP server tool results,https://github.com/Moodys-Investors-Service/jenny-api/pull/287,2026-02-27T14:52:43Z,2026-02-27T15:00:36Z,merged
+Moodys-Investors-Service/jenny-api,322,fix: preserve CallToolResult envelope in MCP tool call responses,https://github.com/Moodys-Investors-Service/jenny-api/pull/322,2026-03-04T21:01:34Z,2026-03-04T21:12:22Z,merged
+Moodys-Investors-Service/jenny-api,371,chore: update dev env values,https://github.com/Moodys-Investors-Service/jenny-api/pull/371,2026-03-19T14:48:12Z,2026-03-19T14:49:26Z,merged
+Moodys-Investors-Service/jenny-api,373,fix: updates wif config for test based on env,https://github.com/Moodys-Investors-Service/jenny-api/pull/373,2026-03-19T17:47:13Z,2026-03-19T17:47:52Z,merged
+Moodys-Investors-Service/jenny-api,374,fix: fixes impersonation url for tst env,https://github.com/Moodys-Investors-Service/jenny-api/pull/374,2026-03-19T18:29:50Z,2026-03-19T18:32:19Z,merged
+Moodys-Investors-Service/jenny-api,376,fix: fixes wif config for stg and prd,https://github.com/Moodys-Investors-Service/jenny-api/pull/376,2026-03-19T19:37:54Z,2026-03-19T19:39:32Z,merged
+Moodys-Investors-Service/jenny-api,379,chore: adds search index ids to config,https://github.com/Moodys-Investors-Service/jenny-api/pull/379,2026-03-19T21:19:52Z,2026-03-19T21:23:36Z,merged
+Moodys-Investors-Service/jenny-api,394,"fix: fixes snyk critical, high and medium issues",https://github.com/Moodys-Investors-Service/jenny-api/pull/394,2026-03-26T14:35:10Z,2026-03-26T15:19:16Z,merged
+Moodys-Investors-Service/jenny-api,399,fix: fixes relevance scores to help with search results,https://github.com/Moodys-Investors-Service/jenny-api/pull/399,2026-03-30T16:06:00Z,2026-03-30T18:02:56Z,merged
+Moodys-Investors-Service/jenny-api,400,Update emtn-cicd.yml,https://github.com/Moodys-Investors-Service/jenny-api/pull/400,2026-03-30T19:03:45Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,416,Feature/391 index batch upload,https://github.com/Moodys-Investors-Service/jenny-api/pull/416,2026-04-03T17:28:04Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,417,feat: add bulk structured document upload to search indexes,https://github.com/Moodys-Investors-Service/jenny-api/pull/417,2026-04-03T17:30:08Z,2026-04-03T17:40:48Z,merged
+Moodys-Investors-Service/jenny-api,418,fix: bypass gcloud-aio-auth for WIF external_account credentials,https://github.com/Moodys-Investors-Service/jenny-api/pull/418,2026-04-03T19:31:45Z,2026-04-03T19:35:02Z,merged
+Moodys-Investors-Service/jenny-api,419,#391 - Adds error detail when documents fail to upload,https://github.com/Moodys-Investors-Service/jenny-api/pull/419,2026-04-06T15:01:42Z,2026-04-06T15:04:40Z,merged
+Moodys-Investors-Service/jenny-api,454,Fix/fixes claude install script,https://github.com/Moodys-Investors-Service/jenny-api/pull/454,2026-04-14T15:51:09Z,2026-04-14T15:51:51Z,merged
+Moodys-Investors-Service/jenny-api,491,feat(search-index): support custom metadata on uploads,https://github.com/Moodys-Investors-Service/jenny-api/pull/491,2026-04-21T16:13:44Z,2026-04-21T16:33:14Z,merged
+Moodys-Investors-Service/jenny-api,512,Fix MCP OAuth blank access token handling,https://github.com/Moodys-Investors-Service/jenny-api/pull/512,2026-04-23T13:49:08Z,2026-04-23T14:15:43Z,merged
+Moodys-Investors-Service/jenny-api,513,fix: Fixes unit tests in preperation for build breaking,https://github.com/Moodys-Investors-Service/jenny-api/pull/513,2026-04-23T17:00:07Z,2026-04-23T17:09:52Z,merged
+Moodys-Investors-Service/jenny-api,516,feat: add GET /v1/usage endpoint for spend tracking,https://github.com/Moodys-Investors-Service/jenny-api/pull/516,2026-04-24T16:08:34Z,2026-04-24T16:34:54Z,merged
+Moodys-Investors-Service/jenny-api,517,fix: fixes issues caused by package upgrades,https://github.com/Moodys-Investors-Service/jenny-api/pull/517,2026-04-24T17:32:45Z,2026-04-24T17:44:33Z,merged
+Moodys-Investors-Service/jenny-api,526,Only use native code interpreter for gpt models,https://github.com/Moodys-Investors-Service/jenny-api/pull/526,2026-04-29T13:26:12Z,2026-04-29T13:32:16Z,merged
+Moodys-Investors-Service/jenny-api,530,chore: format error message to fix json serialization in UI,https://github.com/Moodys-Investors-Service/jenny-api/pull/530,2026-04-29T15:44:09Z,2026-04-29T15:54:51Z,merged
+Moodys-Investors-Service/jenny-api,531,fix: upgrade dependencies to resolve high and critical snyk vulnerabilities,https://github.com/Moodys-Investors-Service/jenny-api/pull/531,2026-04-29T16:51:34Z,2026-04-29T18:08:18Z,merged
+Moodys-Investors-Service/jenny-api,533,"Revert ""Merge pull request #531 from Moodys-Investors-Service/fix/sny…",https://github.com/Moodys-Investors-Service/jenny-api/pull/533,2026-04-30T14:50:13Z,2026-04-30T14:53:40Z,merged
+Moodys-Investors-Service/jenny-api,535,chore: updates openai agents sdk to fix snyk vulns,https://github.com/Moodys-Investors-Service/jenny-api/pull/535,2026-04-30T19:10:39Z,2026-04-30T19:12:25Z,merged
+Moodys-Investors-Service/jenny-api,536,"Revert ""Merge pull request #535 from Moodys-Investors-Service/chore/s…",https://github.com/Moodys-Investors-Service/jenny-api/pull/536,2026-04-30T19:29:03Z,2026-04-30T19:38:05Z,merged
+Moodys-Investors-Service/jenny-api,541,chore: updates openai-agents sdk (and litellm),https://github.com/Moodys-Investors-Service/jenny-api/pull/541,2026-05-04T18:12:53Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,546,fix: attempts fix at sonar scan & coverage rpt,https://github.com/Moodys-Investors-Service/jenny-api/pull/546,2026-05-05T15:19:16Z,2026-05-05T15:51:17Z,merged
+Moodys-Investors-Service/jenny-api,549,fix(sonar): resolve blocker and critical issues,https://github.com/Moodys-Investors-Service/jenny-api/pull/549,2026-05-06T14:49:01Z,2026-05-06T16:14:26Z,merged
+Moodys-Investors-Service/jenny-api,550,fix(sonar): resolve major findings,https://github.com/Moodys-Investors-Service/jenny-api/pull/550,2026-05-06T17:01:40Z,2026-05-06T18:19:33Z,merged
+Moodys-Investors-Service/jenny-api,583,feat: implements api key deletion for admin users,https://github.com/Moodys-Investors-Service/jenny-api/pull/583,2026-05-14T19:46:59Z,2026-05-15T15:00:51Z,merged
+Moodys-Investors-Service/jenny-api,584,fix: fixes batch file and ensure container exists paths,https://github.com/Moodys-Investors-Service/jenny-api/pull/584,2026-05-14T20:15:02Z,2026-05-14T20:17:45Z,merged
+Moodys-Investors-Service/jenny-api,589,chore: updates to support new wif config for al2023,https://github.com/Moodys-Investors-Service/jenny-api/pull/589,2026-05-15T14:04:48Z,2026-05-15T14:09:38Z,merged
+Moodys-Investors-Service/jenny-api,591,"Revert ""chore: updates to support new wif config for al2023""",https://github.com/Moodys-Investors-Service/jenny-api/pull/591,2026-05-15T14:30:14Z,2026-05-15T14:31:02Z,merged
+Moodys-Investors-Service/jenny-api,592,chore: sets tag to base 14752 label,https://github.com/Moodys-Investors-Service/jenny-api/pull/592,2026-05-15T16:32:11Z,2026-05-15T18:17:17Z,merged
+Moodys-Investors-Service/jenny-api,593,chore: remove the gcp-token to test to see if it's needed,https://github.com/Moodys-Investors-Service/jenny-api/pull/593,2026-05-15T16:58:51Z,2026-05-15T17:26:20Z,merged
+Moodys-Investors-Service/jenny-api,595,chore: fixes critical snyk issues with pkg upgrades,https://github.com/Moodys-Investors-Service/jenny-api/pull/595,2026-05-18T14:36:30Z,2026-05-18T15:06:42Z,merged
+Moodys-Investors-Service/jenny-api,596,fix: fixes atlassian mcp url,https://github.com/Moodys-Investors-Service/jenny-api/pull/596,2026-05-18T15:41:32Z,2026-05-18T15:44:58Z,merged
+Moodys-Investors-Service/jenny-api,597,"Revert ""chore: fixes critical snyk issues with pkg upgrades""",https://github.com/Moodys-Investors-Service/jenny-api/pull/597,2026-05-18T17:20:33Z,2026-05-18T17:27:54Z,merged
+Moodys-Investors-Service/jenny-api,599,Update openai agents sdk to fix snyk vuls. ,https://github.com/Moodys-Investors-Service/jenny-api/pull/599,2026-05-19T19:51:59Z,2026-05-19T20:12:51Z,merged
+Moodys-Investors-Service/jenny-api,603,Chore/emtn actions updates,https://github.com/Moodys-Investors-Service/jenny-api/pull/603,2026-05-21T14:21:03Z,2026-05-21T14:50:20Z,merged
+Moodys-Investors-Service/jenny-api,629,chore: limit uv packages to only ones more than a week old,https://github.com/Moodys-Investors-Service/jenny-api/pull/629,2026-05-28T15:35:41Z,2026-05-28T17:31:17Z,merged
+Moodys-Investors-Service/jenny-api,634,chore: removes snyk bypass as it should be passing in CI now,https://github.com/Moodys-Investors-Service/jenny-api/pull/634,2026-05-29T12:50:06Z,2026-05-29T12:51:39Z,merged
+Moodys-Investors-Service/jenny-api,635,chore: update pyjwt to 2.13.0 to fix snyk high vuln,https://github.com/Moodys-Investors-Service/jenny-api/pull/635,2026-05-29T13:32:19Z,2026-05-29T13:42:42Z,merged
+Moodys-Investors-Service/jenny-api,636,chore: updates to v1 branch of emtn actions now that uv is supported,https://github.com/Moodys-Investors-Service/jenny-api/pull/636,2026-05-29T15:47:07Z,2026-05-29T15:55:26Z,merged
+Moodys-Investors-Service/jenny-api,722,fix(mcp): return non-secret OAuth config and preserve secrets on update,https://github.com/Moodys-Investors-Service/jenny-api/pull/722,2026-06-12T13:20:01Z,2026-06-12T13:57:11Z,merged
+Moodys-Investors-Service/jenny-api,727,fix: updates atlassian mcp url,https://github.com/Moodys-Investors-Service/jenny-api/pull/727,2026-06-12T16:17:07Z,2026-06-12T16:57:15Z,merged
+Moodys-Investors-Service/jenny-api,754,fix(pdf-export): render markdown tables with inline markup via xhtml2pdf,https://github.com/Moodys-Investors-Service/jenny-api/pull/754,2026-06-15T18:44:28Z,2026-06-15T19:24:14Z,merged
+Moodys-Investors-Service/jenny-api,766,chore: fixes synk issues by upgrading packages,https://github.com/Moodys-Investors-Service/jenny-api/pull/766,2026-06-16T16:01:48Z,2026-06-16T16:45:55Z,merged
+Moodys-Investors-Service/jenny-api,853,test: fix 7 stale unit tests,https://github.com/Moodys-Investors-Service/jenny-api/pull/853,2026-06-29T15:51:13Z,2026-06-29T16:12:45Z,merged
+Moodys-Investors-Service/jenny-api,907,feat(deep-research): add Temporal backend behind DEEP_RESEARCH_BACKEND toggle,https://github.com/Moodys-Investors-Service/jenny-api/pull/907,2026-07-06T16:00:27Z,2026-07-06T17:43:09Z,merged
+Moodys-Investors-Service/jenny-api,909,fix(deep-research): give worker the OKTA vars required to import app.…,https://github.com/Moodys-Investors-Service/jenny-api/pull/909,2026-07-06T18:06:13Z,2026-07-06T18:08:36Z,merged
+Moodys-Investors-Service/jenny-api,915,feat(knowledge-table): run ingestion and execution on Temporal via unified worker,https://github.com/Moodys-Investors-Service/jenny-api/pull/915,2026-07-07T19:23:40Z,2026-07-08T13:56:25Z,merged
+Moodys-Investors-Service/jenny-api,926,feat: offload extraction and CU results to blob storage,https://github.com/Moodys-Investors-Service/jenny-api/pull/926,2026-07-09T15:03:56Z,2026-07-09T15:46:40Z,merged
+Moodys-Investors-Service/jenny-api,937,chore: use user’s api key instead of master key for KT executions,https://github.com/Moodys-Investors-Service/jenny-api/pull/937,2026-07-13T14:56:38Z,2026-07-13T17:32:09Z,merged
+Moodys-Investors-Service/jenny-api,959,chore: ensure that temporal tests don’t run on temporal,https://github.com/Moodys-Investors-Service/jenny-api/pull/959,2026-07-14T19:57:50Z,2026-07-14T20:18:37Z,merged
+Moodys-Investors-Service/jenny-api,975,chore: fixes alembic migration,https://github.com/Moodys-Investors-Service/jenny-api/pull/975,2026-07-16T16:09:38Z,,closed_unmerged
+Moodys-Investors-Service/jenny-api,976,hotfix: creates merge migration to fix alembic issue,https://github.com/Moodys-Investors-Service/jenny-api/pull/976,2026-07-16T16:35:13Z,2026-07-16T16:37:50Z,merged
+Moodys-Investors-Service/jenny-api,1066,fix: fixes package mismatch issue,https://github.com/Moodys-Investors-Service/jenny-api/pull/1066,2026-08-03T19:28:41Z,2026-08-03T19:37:02Z,merged
+Moodys-Investors-Service/jenny-api,1069,chore: update task name to match  which fixes pr branches,https://github.com/Moodys-Investors-Service/jenny-api/pull/1069,2026-08-04T18:05:08Z,2026-08-07T18:04:00Z,merged
+Moodys-Investors-Service/jenny-api,1144,MCP CIMD Implementation hardening,https://github.com/Moodys-Investors-Service/jenny-api/pull/1144,2026-08-13T14:21:20Z,2026-08-13T16:55:13Z,merged
+Moodys-Investors-Service/jenny-api,1154,chore: use wif instead of client cert for temporal auth,https://github.com/Moodys-Investors-Service/jenny-api/pull/1154,2026-08-17T18:21:57Z,2026-08-17T19:45:22Z,merged
+Moodys-Investors-Service/jenny-api,1155,fix: fixes worker deployment env vars,https://github.com/Moodys-Investors-Service/jenny-api/pull/1155,2026-08-17T20:05:34Z,2026-08-17T20:06:40Z,merged
+Moodys-Investors-Service/jenny-api,1156,fix: attempted fix at fixing worker deployment,https://github.com/Moodys-Investors-Service/jenny-api/pull/1156,2026-08-17T20:27:42Z,2026-08-17T20:28:19Z,merged
+Moodys-Investors-Service/jenny-api,1157,fix: fix worker volume mount for wif,https://github.com/Moodys-Investors-Service/jenny-api/pull/1157,2026-08-17T20:55:17Z,2026-08-17T20:56:47Z,merged
+Moodys-Investors-Service/jenny-api,1175,fix: use feature-flag-aware admin access for feedback,https://github.com/Moodys-Investors-Service/jenny-api/pull/1175,2026-08-20T15:17:15Z,2026-08-20T15:28:08Z,merged
+Moodys-Investors-Service/jenny-api,1204,Automate monthly API key budget assignment,https://github.com/Moodys-Investors-Service/jenny-api/pull/1204,2026-08-26T14:28:34Z,2026-08-26T16:26:23Z,merged
+Moodys-Investors-Service/jenny-api,1211,fix(api-keys): initialize budgets with month-to-date spend,https://github.com/Moodys-Investors-Service/jenny-api/pull/1211,2026-08-26T20:59:15Z,2026-08-26T21:00:54Z,merged
+Moodys-Investors-Service/jenny-api,1241,feat(api-keys): add non-tech organization budget tier,https://github.com/Moodys-Investors-Service/jenny-api/pull/1241,2026-09-01T20:34:17Z,2026-09-01T20:56:24Z,merged
+Moodys-Investors-Service/jenny-api,1250,feat(models): expose normalized model pricing,https://github.com/Moodys-Investors-Service/jenny-api/pull/1250,2026-09-02T19:41:05Z,2026-09-03T13:20:32Z,merged
+Moodys-Investors-Service/jenny-api,1257,Separate Kubernetes health probe endpoints,https://github.com/Moodys-Investors-Service/jenny-api/pull/1257,2026-09-03T20:28:41Z,2026-09-03T21:08:08Z,merged
+Moodys-Investors-Service/jenny-api,1264,fix(health): configure separated probes in higher environments,https://github.com/Moodys-Investors-Service/jenny-api/pull/1264,2026-09-04T13:37:08Z,2026-09-04T13:57:38Z,merged
+Moodys-Investors-Service/jenny-api,1291,chore: migrate dev Temporal endpoint and identity,https://github.com/Moodys-Investors-Service/jenny-api/pull/1291,2026-09-09T13:46:30Z,2026-09-09T13:50:55Z,merged
+Moodys-Investors-Service/jenny-api,1292,chore: update image model to gpt-image-2.5-flare,https://github.com/Moodys-Investors-Service/jenny-api/pull/1292,2026-09-09T17:48:00Z,2026-09-09T18:45:32Z,merged
+Moodys-Investors-Service/jenny-api,1293,Assign $250 API budgets to non-tech MR pilot members,https://github.com/Moodys-Investors-Service/jenny-api/pull/1293,2026-09-10T15:05:08Z,2026-09-10T15:19:30Z,merged
+Moodys-Investors-Service/jenny-api,1305,fix(temporal): refresh worker credentials and add health probes,https://github.com/Moodys-Investors-Service/jenny-api/pull/1305,2026-09-11T15:57:50Z,2026-09-11T17:15:48Z,merged
+Moodys-Investors-Service/jenny-api,1306,Fix tech non-engineering monthly budget to $150,https://github.com/Moodys-Investors-Service/jenny-api/pull/1306,2026-09-11T16:13:14Z,2026-09-11T17:16:20Z,merged
+Moodys-Investors-Service/jenny-api,1309,Fix budget assignment log status collision in Datadog,https://github.com/Moodys-Investors-Service/jenny-api/pull/1309,2026-09-11T19:05:39Z,2026-09-11T19:55:30Z,merged
+Moodys-Investors-Service/jenny-api,1311,"feat: add saved Agents, versioned runtime, and private history",https://github.com/Moodys-Investors-Service/jenny-api/pull/1311,2026-09-11T19:57:26Z,2026-09-14T15:28:05Z,merged
+Moodys-Investors-Service/jenny-api,1319,Fix Vertex search metadata serialization and missing snippets,https://github.com/Moodys-Investors-Service/jenny-api/pull/1319,2026-09-14T20:52:16Z,2026-09-15T12:49:31Z,merged
+Moodys-Investors-Service/jenny-api,1320,Squash Alembic history while retaining the latest 10 revisions,https://github.com/Moodys-Investors-Service/jenny-api/pull/1320,2026-09-14T20:56:10Z,2026-09-15T15:56:34Z,merged
+Moodys-Investors-Service/jenny-api,1351,fix: add web concurrency of 7 w/ updated pool size,https://github.com/Moodys-Investors-Service/jenny-api/pull/1351,2026-09-18T16:01:12Z,2026-09-18T16:13:24Z,merged
+Moodys-Investors-Service/jenny-api,1361,feat(agents): separate test snapshots and add version rollback,https://github.com/Moodys-Investors-Service/jenny-api/pull/1361,2026-09-21T20:06:05Z,2026-09-22T14:06:22Z,merged
+Moodys-Investors-Service/jenny-api,1363,Remove unsupported Search Index conversation mode,https://github.com/Moodys-Investors-Service/jenny-api/pull/1363,2026-09-21T20:26:15Z,2026-09-22T13:39:31Z,merged
+Moodys-Investors-Service/jenny-api,1392,"Revert ""feat(mcp): add built-in Fund Finance connector""",https://github.com/Moodys-Investors-Service/jenny-api/pull/1392,2026-09-25T14:37:18Z,2026-09-25T14:39:13Z,merged
+Moodys-Investors-Service/jenny-api,1393,"Revert ""feat(mcp): add built-in OKR Scorecard connector""",https://github.com/Moodys-Investors-Service/jenny-api/pull/1393,2026-09-25T14:39:59Z,2026-09-25T14:42:12Z,merged
+Moodys-Investors-Service/jenny-api,1394,feat(search-index): add document download endpoint,https://github.com/Moodys-Investors-Service/jenny-api/pull/1394,2026-09-25T16:00:24Z,2026-09-25T18:11:23Z,merged
+Moodys-Investors-Service/jenny-api,1400,feat(agents): enforce EMS entitlement for saved Agents,https://github.com/Moodys-Investors-Service/jenny-api/pull/1400,2026-09-28T18:57:51Z,2026-09-28T20:48:20Z,merged
+Moodys-Investors-Service/jenny-api,1422,Centralize feature model selection with shared profiles,https://github.com/Moodys-Investors-Service/jenny-api/pull/1422,2026-10-01T19:01:35Z,2026-10-01T19:55:57Z,merged
+Moodys-Investors-Service/jenny-api,1423,feat: let admins set missing API key budgets by username,https://github.com/Moodys-Investors-Service/jenny-api/pull/1423,2026-10-01T20:28:57Z,2026-10-01T21:01:46Z,merged
+Moodys-Investors-Service/jenny-api,1425,fix(api-keys): preserve username case in budget checks,https://github.com/Moodys-Investors-Service/jenny-api/pull/1425,2026-10-01T23:51:08Z,2026-10-02T11:44:29Z,merged
+Moodys-Investors-Service/jenny-ui,65,Save tool call updates,https://github.com/Moodys-Investors-Service/jenny-ui/pull/65,2026-01-06T17:31:10Z,2026-01-06T18:20:13Z,merged
+Moodys-Investors-Service/jenny-ui,66,Updates proxy conf to point to dev,https://github.com/Moodys-Investors-Service/jenny-ui/pull/66,2026-01-06T21:27:38Z,,closed_unmerged
+Moodys-Investors-Service/jenny-ui,74,adds claude.md to refer to agents.md,https://github.com/Moodys-Investors-Service/jenny-ui/pull/74,2026-01-08T18:37:17Z,2026-01-08T18:38:55Z,merged
+Moodys-Investors-Service/jenny-ui,77,updates feature flag keys to enable feature flags,https://github.com/Moodys-Investors-Service/jenny-ui/pull/77,2026-01-08T20:29:51Z,2026-01-08T20:33:49Z,merged
+Moodys-Investors-Service/jenny-ui,79,Resolves #80: adds file paste handling to chat,https://github.com/Moodys-Investors-Service/jenny-ui/pull/79,2026-01-09T20:02:24Z,2026-01-09T20:06:17Z,merged
+Moodys-Investors-Service/jenny-ui,82,fixes z-index issue on app nav,https://github.com/Moodys-Investors-Service/jenny-ui/pull/82,2026-01-12T16:10:36Z,2026-01-12T18:03:03Z,merged
+Moodys-Investors-Service/jenny-ui,83,Adds profile menu w/ API key display,https://github.com/Moodys-Investors-Service/jenny-ui/pull/83,2026-01-12T18:47:02Z,2026-01-12T19:32:00Z,merged
+Moodys-Investors-Service/jenny-ui,85,fixes modal positioning within nav,https://github.com/Moodys-Investors-Service/jenny-ui/pull/85,2026-01-12T20:08:12Z,2026-01-12T20:15:14Z,merged
+Moodys-Investors-Service/jenny-ui,86,fixes menu item display in footer,https://github.com/Moodys-Investors-Service/jenny-ui/pull/86,2026-01-12T21:32:02Z,2026-01-12T21:32:39Z,merged
+Moodys-Investors-Service/jenny-ui,87,updates documentation for API key creation,https://github.com/Moodys-Investors-Service/jenny-ui/pull/87,2026-01-13T15:03:07Z,2026-01-13T15:04:54Z,merged
+Moodys-Investors-Service/jenny-ui,91,update agents.md,https://github.com/Moodys-Investors-Service/jenny-ui/pull/91,2026-01-14T14:52:17Z,2026-01-14T14:57:00Z,merged
+Moodys-Investors-Service/jenny-ui,94,fixes layout and styling of image and file upload,https://github.com/Moodys-Investors-Service/jenny-ui/pull/94,2026-01-15T20:15:35Z,2026-01-15T20:18:27Z,merged
+Moodys-Investors-Service/jenny-ui,99,implements auto key creation when logging into the app,https://github.com/Moodys-Investors-Service/jenny-ui/pull/99,2026-01-15T23:15:29Z,2026-01-16T14:31:12Z,merged
+Moodys-Investors-Service/jenny-ui,100,updates package-lock to be in sync,https://github.com/Moodys-Investors-Service/jenny-ui/pull/100,2026-01-16T14:41:55Z,2026-01-16T14:44:17Z,merged
+Moodys-Investors-Service/jenny-ui,103,Fix/page load icon,https://github.com/Moodys-Investors-Service/jenny-ui/pull/103,2026-01-16T20:21:21Z,2026-01-16T20:24:12Z,merged
+Moodys-Investors-Service/jenny-ui,119,feat: Implements Deep Research w/ PDF Generation and Downloading,https://github.com/Moodys-Investors-Service/jenny-ui/pull/119,2026-01-23T21:40:04Z,2026-01-23T22:09:37Z,merged
+Moodys-Investors-Service/jenny-ui,123,fix: fixes home route loading issue,https://github.com/Moodys-Investors-Service/jenny-ui/pull/123,2026-01-27T15:37:06Z,2026-01-27T15:42:32Z,merged
+Moodys-Investors-Service/jenny-ui,124,fix: removes analysis button,https://github.com/Moodys-Investors-Service/jenny-ui/pull/124,2026-01-27T15:44:51Z,2026-01-27T16:01:39Z,merged
+Moodys-Investors-Service/jenny-ui,135,Feature/mcp apps,https://github.com/Moodys-Investors-Service/jenny-ui/pull/135,2026-01-30T14:48:49Z,2026-01-30T16:38:39Z,merged
+Moodys-Investors-Service/jenny-ui,145,feat: MCP Registry,https://github.com/Moodys-Investors-Service/jenny-ui/pull/145,2026-02-02T15:28:59Z,2026-02-02T16:45:16Z,merged
+Moodys-Investors-Service/jenny-ui,148,Feature/mcp registry tools,https://github.com/Moodys-Investors-Service/jenny-ui/pull/148,2026-02-02T20:15:52Z,2026-02-02T21:19:31Z,merged
+Moodys-Investors-Service/jenny-ui,150,fix(mcp-server-modal): enable Create button when form values change,https://github.com/Moodys-Investors-Service/jenny-ui/pull/150,2026-02-03T15:37:49Z,2026-02-03T17:05:32Z,merged
+Moodys-Investors-Service/jenny-ui,152,Add pre-commit hooks for ESLint and Prettier enforcement,https://github.com/Moodys-Investors-Service/jenny-ui/pull/152,2026-02-03T16:57:27Z,2026-02-03T21:48:28Z,merged
+Moodys-Investors-Service/jenny-ui,156,updates docs to include potential issues and fixes,https://github.com/Moodys-Investors-Service/jenny-ui/pull/156,2026-02-04T16:57:44Z,2026-02-04T17:03:29Z,merged
+Moodys-Investors-Service/jenny-ui,175,Hotfix/update docs,https://github.com/Moodys-Investors-Service/jenny-ui/pull/175,2026-02-11T21:00:30Z,2026-02-11T21:01:41Z,merged
+Moodys-Investors-Service/jenny-ui,180,fixes modal display for deep research and safari,https://github.com/Moodys-Investors-Service/jenny-ui/pull/180,2026-02-13T16:25:51Z,2026-02-13T16:40:12Z,merged
+Moodys-Investors-Service/jenny-ui,198,updates emtn ng to fix feature flagging issue,https://github.com/Moodys-Investors-Service/jenny-ui/pull/198,2026-02-17T21:13:41Z,2026-02-17T21:15:15Z,merged
+Moodys-Investors-Service/jenny-ui,209,Fix dollar amounts parsed as LaTeX math,https://github.com/Moodys-Investors-Service/jenny-ui/pull/209,2026-02-18T20:04:21Z,2026-02-18T21:28:36Z,merged
+Moodys-Investors-Service/jenny-ui,224,Adds gemini 3.1 pro,https://github.com/Moodys-Investors-Service/jenny-ui/pull/224,2026-02-19T18:55:38Z,2026-02-19T19:12:57Z,merged
+Moodys-Investors-Service/jenny-ui,337,feat: built-in MCP server support in UI,https://github.com/Moodys-Investors-Service/jenny-ui/pull/337,2026-02-24T18:23:09Z,2026-02-24T19:04:54Z,merged
+Moodys-Investors-Service/jenny-ui,376,fix(mcp): parse structuredContent from enriched streaming events,https://github.com/Moodys-Investors-Service/jenny-ui/pull/376,2026-02-26T22:15:19Z,,closed_unmerged
+Moodys-Investors-Service/jenny-ui,381,fix(ui): pass structuredContent to MCP apps via bridge,https://github.com/Moodys-Investors-Service/jenny-ui/pull/381,2026-02-27T14:52:38Z,2026-02-27T15:02:45Z,merged
+Moodys-Investors-Service/jenny-ui,414,fix: MCP servers from query params not used in headless conversation init,https://github.com/Moodys-Investors-Service/jenny-ui/pull/414,2026-03-02T17:54:06Z,2026-03-02T18:13:03Z,merged
+Moodys-Investors-Service/jenny-ui,447,fix: make deep research task cards self-sufficient,https://github.com/Moodys-Investors-Service/jenny-ui/pull/447,2026-03-03T22:26:10Z,2026-03-03T22:37:52Z,merged
+Moodys-Investors-Service/jenny-ui,461,fix: MCP App initial load shows raw OpenAI content array,https://github.com/Moodys-Investors-Service/jenny-ui/pull/461,2026-03-04T20:59:50Z,2026-03-04T21:17:12Z,merged
+Moodys-Investors-Service/jenny-ui,469,feat: add GPT 5.4 model and move GPT 5.2 to previous generation,https://github.com/Moodys-Investors-Service/jenny-ui/pull/469,2026-03-05T19:06:44Z,2026-03-05T19:13:31Z,merged
+Moodys-Investors-Service/jenny-ui,481,fix: sets specific gh runner,https://github.com/Moodys-Investors-Service/jenny-ui/pull/481,2026-03-09T15:57:29Z,2026-03-09T16:06:47Z,merged
+Moodys-Investors-Service/jenny-ui,498,fix: fixes issue with package and pacage-lock being out of sync,https://github.com/Moodys-Investors-Service/jenny-ui/pull/498,2026-03-12T20:22:33Z,2026-03-12T20:35:26Z,merged
+Moodys-Investors-Service/jenny-ui,503,chore: updates AGENTS.md to specifiy rules we’ve seen violated,https://github.com/Moodys-Investors-Service/jenny-ui/pull/503,2026-03-13T13:11:27Z,2026-03-13T13:33:32Z,merged
+Moodys-Investors-Service/jenny-ui,521,chore: use v1 pipeline to not skip lint or test,https://github.com/Moodys-Investors-Service/jenny-ui/pull/521,2026-03-17T14:44:47Z,,closed_unmerged
+Moodys-Investors-Service/jenny-ui,535,chore: enable gemini models based on feature flag,https://github.com/Moodys-Investors-Service/jenny-ui/pull/535,2026-03-18T19:06:55Z,2026-03-18T20:21:13Z,merged
+Moodys-Investors-Service/jenny-ui,544,fix: fixes search chats nav item,https://github.com/Moodys-Investors-Service/jenny-ui/pull/544,2026-03-20T13:41:28Z,2026-03-20T13:47:00Z,merged
+Moodys-Investors-Service/jenny-ui,546,chore: updates build branch to turn on tests (with failure) and snyk …,https://github.com/Moodys-Investors-Service/jenny-ui/pull/546,2026-03-20T17:41:40Z,2026-03-20T19:18:40Z,merged
+Moodys-Investors-Service/jenny-ui,551,fix: fixes #547 - don’t route when clicking search chats,https://github.com/Moodys-Investors-Service/jenny-ui/pull/551,2026-03-23T13:18:31Z,2026-03-23T13:30:27Z,merged
+Moodys-Investors-Service/jenny-ui,553,fix: fixes scrolling when keyboard navigating search result list,https://github.com/Moodys-Investors-Service/jenny-ui/pull/553,2026-03-23T20:33:34Z,2026-03-24T13:44:40Z,merged
+Moodys-Investors-Service/jenny-ui,566,fix: fixes search chats button click,https://github.com/Moodys-Investors-Service/jenny-ui/pull/566,2026-03-25T19:26:37Z,2026-03-25T19:33:04Z,merged
+Moodys-Investors-Service/jenny-ui,571,Chore/snyk fixes,https://github.com/Moodys-Investors-Service/jenny-ui/pull/571,2026-03-26T19:42:59Z,2026-03-26T20:02:49Z,merged
+Moodys-Investors-Service/jenny-ui,599,Fixes snyk vulns as of 4/1/2026,https://github.com/Moodys-Investors-Service/jenny-ui/pull/599,2026-04-01T14:47:52Z,2026-04-02T17:26:41Z,merged
+Moodys-Investors-Service/jenny-ui,604,Chore/nvm and snyk,https://github.com/Moodys-Investors-Service/jenny-ui/pull/604,2026-04-02T19:30:08Z,2026-04-02T19:46:28Z,merged
+Moodys-Investors-Service/jenny-ui,652,Add postMessage context API for headless iframe embedding,https://github.com/Moodys-Investors-Service/jenny-ui/pull/652,2026-04-10T15:39:47Z,2026-04-10T15:42:58Z,merged
+Moodys-Investors-Service/jenny-ui,714,docs: update docs to make sure that it's mentioned that the top level…,https://github.com/Moodys-Investors-Service/jenny-ui/pull/714,2026-04-20T14:50:14Z,2026-04-20T15:16:59Z,merged
+Moodys-Investors-Service/jenny-ui,727,chore: fixes snyk critical issue,https://github.com/Moodys-Investors-Service/jenny-ui/pull/727,2026-04-21T14:35:50Z,2026-04-21T14:53:36Z,merged
+Moodys-Investors-Service/jenny-ui,731,Fixes Auth Redirect to ensure we route to the original url,https://github.com/Moodys-Investors-Service/jenny-ui/pull/731,2026-04-21T19:58:46Z,2026-04-21T20:13:27Z,merged
+Moodys-Investors-Service/jenny-ui,743,Fix MCP OAuth tool loading after authorization,https://github.com/Moodys-Investors-Service/jenny-ui/pull/743,2026-04-23T13:49:09Z,2026-04-23T14:18:00Z,merged
+Moodys-Investors-Service/jenny-ui,807,chore: sets model policy docs to hidden,https://github.com/Moodys-Investors-Service/jenny-ui/pull/807,2026-04-24T12:54:53Z,2026-04-24T13:16:24Z,merged
+Moodys-Investors-Service/jenny-ui,811,feat: adds gpt-5.5,https://github.com/Moodys-Investors-Service/jenny-ui/pull/811,2026-04-24T19:26:47Z,2026-04-24T19:27:54Z,merged
+Moodys-Investors-Service/jenny-ui,814,fix: fixes snyk issue with karma -> http-proxy -> follow-redirects,https://github.com/Moodys-Investors-Service/jenny-ui/pull/814,2026-04-27T14:01:28Z,,closed_unmerged
+Moodys-Investors-Service/jenny-ui,820,Add Search Index Documentation,https://github.com/Moodys-Investors-Service/jenny-ui/pull/820,2026-04-27T18:37:34Z,2026-04-28T15:57:28Z,merged
+Moodys-Investors-Service/jenny-ui,821,Feature: implement spend tracking ui,https://github.com/Moodys-Investors-Service/jenny-ui/pull/821,2026-04-27T18:49:41Z,2026-04-27T19:11:06Z,merged
+Moodys-Investors-Service/jenny-ui,850,chore: enable snyk for ui,https://github.com/Moodys-Investors-Service/jenny-ui/pull/850,2026-04-28T17:24:41Z,2026-04-28T17:36:10Z,merged
+Moodys-Investors-Service/jenny-ui,860,chore: removes model policy page from docs,https://github.com/Moodys-Investors-Service/jenny-ui/pull/860,2026-04-29T15:25:44Z,2026-04-29T15:28:50Z,merged
+Moodys-Investors-Service/jenny-ui,861,chore: handle errors on ui in a better way,https://github.com/Moodys-Investors-Service/jenny-ui/pull/861,2026-04-29T15:43:51Z,2026-04-29T15:54:58Z,merged
+Moodys-Investors-Service/jenny-ui,888,fix: fixes sonar coverage for jenny-ui,https://github.com/Moodys-Investors-Service/jenny-ui/pull/888,2026-05-05T18:06:37Z,2026-05-05T18:15:05Z,merged
+Moodys-Investors-Service/jenny-ui,898,docs(codex): recommend gpt-5.5 medium reasoning,https://github.com/Moodys-Investors-Service/jenny-ui/pull/898,2026-05-06T15:19:01Z,2026-05-06T15:33:32Z,merged
+Moodys-Investors-Service/jenny-ui,914,chore: fixes sonar and snyk issues,https://github.com/Moodys-Investors-Service/jenny-ui/pull/914,2026-05-07T13:54:31Z,2026-05-07T15:31:30Z,merged
+Moodys-Investors-Service/jenny-ui,917,chore: fixes sonar MINOR bug issues to get reliability rating up to A,https://github.com/Moodys-Investors-Service/jenny-ui/pull/917,2026-05-07T15:55:07Z,2026-05-07T16:05:24Z,merged
+Moodys-Investors-Service/jenny-ui,963,chore: use dashes instead of dots for claude config,https://github.com/Moodys-Investors-Service/jenny-ui/pull/963,2026-05-14T16:06:06Z,2026-05-14T16:48:39Z,merged
+Moodys-Investors-Service/jenny-ui,966,chore: remove gemini models and update anthropic to dash,https://github.com/Moodys-Investors-Service/jenny-ui/pull/966,2026-05-14T19:06:19Z,2026-05-14T19:32:13Z,merged
+Moodys-Investors-Service/jenny-ui,1198,fix(mcp): repopulate MCP server advanced config on edit,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1198,2026-06-12T13:20:19Z,2026-06-12T14:13:52Z,merged
+Moodys-Investors-Service/jenny-ui,1229,chore: fixes snyk vulns found today,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1229,2026-06-16T14:28:12Z,2026-06-16T14:29:33Z,merged
+Moodys-Investors-Service/jenny-ui,1370,chore: fixes snyk vulns found today,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1370,2026-06-29T17:10:15Z,2026-06-29T18:01:29Z,merged
+Moodys-Investors-Service/jenny-ui,1381,chore: remove unused feature flags,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1381,2026-06-29T20:11:58Z,2026-06-29T20:14:23Z,merged
+Moodys-Investors-Service/jenny-ui,1384,chore: remove fully rolled out feature flags,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1384,2026-06-29T20:38:59Z,2026-06-29T20:52:52Z,merged
+Moodys-Investors-Service/jenny-ui,1407,feature: adds claude sonnet 5 to ui,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1407,2026-07-01T18:11:41Z,2026-07-01T18:18:47Z,merged
+Moodys-Investors-Service/jenny-ui,1415,fix: fixes 2 snyk high vulns,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1415,2026-07-06T17:41:25Z,2026-07-06T17:59:03Z,merged
+Moodys-Investors-Service/jenny-ui,1561,feat: adds opus 5 to model list and update clade / codex docs,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1561,2026-07-27T19:25:59Z,2026-07-27T19:36:55Z,merged
+Moodys-Investors-Service/jenny-ui,1630,fix: fixes placement of context popover in relation to other buttons,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1630,2026-08-04T13:52:03Z,2026-08-04T14:23:22Z,merged
+Moodys-Investors-Service/jenny-ui,1642,chore: update install instructions to remove links to install scripts,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1642,2026-08-05T14:15:14Z,2026-08-05T14:28:35Z,merged
+Moodys-Investors-Service/jenny-ui,1725,chore: remove fully rolled out feature flags,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1725,2026-08-18T14:11:05Z,2026-08-18T14:43:10Z,merged
+Moodys-Investors-Service/jenny-ui,1757,chore: add feature flag that will remove nav items for demo recording,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1757,2026-08-21T16:02:57Z,2026-08-21T16:12:08Z,merged
+Moodys-Investors-Service/jenny-ui,1811,Support MCP App sendMessage and model context,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1811,2026-09-01T15:03:18Z,2026-09-01T16:49:10Z,merged
+Moodys-Investors-Service/jenny-ui,1834,chore: update default model to gpt-5.6-luna,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1834,2026-09-02T12:59:44Z,2026-09-02T16:05:53Z,merged
+Moodys-Investors-Service/jenny-ui,1849,feat(models): add model pricing comparison page,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1849,2026-09-02T19:41:27Z,2026-09-03T13:21:29Z,merged
+Moodys-Investors-Service/jenny-ui,1906,chore: removes jenny_demo_recordings feature flag,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1906,2026-09-09T17:25:57Z,2026-09-09T17:51:30Z,merged
+Moodys-Investors-Service/jenny-ui,1934,"feat: add Agent library, builder, and private chat history",https://github.com/Moodys-Investors-Service/jenny-ui/pull/1934,2026-09-11T19:57:44Z,2026-09-14T15:29:39Z,merged
+Moodys-Investors-Service/jenny-ui,1987,feat: add Claude Opus 4.6 to previous generation models,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1987,2026-09-21T18:37:16Z,2026-09-21T18:44:04Z,merged
+Moodys-Investors-Service/jenny-ui,1992,"feat(agents): refine authoring, rollback, and chat experience",https://github.com/Moodys-Investors-Service/jenny-ui/pull/1992,2026-09-21T20:06:28Z,2026-09-22T14:08:38Z,merged
+Moodys-Investors-Service/jenny-ui,1995,docs: remove Search Index conversation mode,https://github.com/Moodys-Investors-Service/jenny-ui/pull/1995,2026-09-21T20:26:38Z,2026-09-22T13:55:11Z,merged
+Moodys-Investors-Service/jenny-ui,2028,feat(models): add Claude Opus 5.5 to model selector,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2028,2026-09-22T20:58:31Z,2026-09-22T21:34:09Z,merged
+Moodys-Investors-Service/jenny-ui,2056,docs(search-indexes): add document download endpoint,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2056,2026-09-25T16:00:42Z,2026-09-25T18:43:48Z,merged
+Moodys-Investors-Service/jenny-ui,2065,feat(agents): gate navigation and routes on EMS entitlement,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2065,2026-09-28T18:58:06Z,2026-09-28T20:50:08Z,merged
+Moodys-Investors-Service/jenny-ui,2066,feat(models): add Claude Sonnet 5.5 and retire older options,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2066,2026-09-28T20:31:20Z,2026-09-29T12:43:20Z,merged
+Moodys-Investors-Service/jenny-ui,2072,feat: replace GPT 6 Sol with GPT 6.1 Sol,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2072,2026-09-29T19:34:19Z,2026-09-29T19:39:31Z,merged
+Moodys-Investors-Service/jenny-ui,2089,Centralize model availability and feature defaults,https://github.com/Moodys-Investors-Service/jenny-ui/pull/2089,2026-10-01T14:18:12Z,2026-10-01T15:39:28Z,merged
+Moodys-Investors-Service/mcp-app-template,1,Feature/initial commit,https://github.com/Moodys-Investors-Service/mcp-app-template/pull/1,2026-03-31T13:42:14Z,,closed_unmerged
+Moodys-Investors-Service/mcp-app-template,2,Feature/initial commit,https://github.com/Moodys-Investors-Service/mcp-app-template/pull/2,2026-03-31T14:30:58Z,2026-03-31T15:03:45Z,merged
