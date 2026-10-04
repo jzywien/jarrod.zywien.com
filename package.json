@@ -1,28 +1,52 @@
 {
   "name": "jarrod.zywien.com",
   "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.16.0",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
-    "prestart": "node server/scripts/loadenv.js",
-    "start": "node server/app.js",
-    "start:client": "cd client && yarn start",
-    "start:all": "concurrently \"yarn start\" \"yarn start:client\"",
-    "build": "cd client && yarn build:prod && cd ..",
-    "deploy": "yarn build && yarn deploy:gcloud",
-    "deploy:gcloud": "gcloud app deploy --project jzywien"
+    "dev": "ng serve",
+    "build": "ng build --configuration production && npm run server:build",
+    "start": "node server/dist/index.js",
+    "gcp-build": "npm run build",
+    "lint": "eslint .",
+    "typecheck": "ngc -p tsconfig.app.json --noEmit && npm run server:typecheck",
+    "test": "npm run build && npm run server:test",
+    "format:check": "prettier --check .",
+    "server:build": "tsc -p server/tsconfig.json",
+    "server:typecheck": "tsc -p server/tsconfig.json --noEmit",
+    "server:test": "node --test server/test/*.test.mjs"
   },
   "dependencies": {
-    "@google-cloud/storage": "^1.7.0",
-    "body-parser": "^1.18.3",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "firebase-admin": "^5.12.1",
-    "lodash": "^4.17.10",
-    "serve-favicon": "^2.5.0"
+    "@fastify/static": "10.1.5",
+    "fastify": "5.12.5"
   },
   "devDependencies": {
-    "@angular/cli": "^6.0.8",
-    "concurrently": "^3.6.0"
+    "@angular-eslint/schematics": "22.5.0",
+    "@angular/build": "22.2.0",
+    "@angular/cli": "22.2.0",
+    "@angular/common": "22.2.1",
+    "@angular/compiler": "22.2.1",
+    "@angular/compiler-cli": "22.2.1",
+    "@angular/core": "22.2.1",
+    "@angular/platform-browser": "22.2.1",
+    "@angular/platform-server": "22.2.1",
+    "@angular/router": "22.2.1",
+    "@angular/ssr": "22.2.0",
+    "@eslint/js": "10.0.1",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.19.0",
+    "angular-eslint": "22.5.0",
+    "eslint": "10.11.0",
+    "postcss": "8.5.28",
+    "prettier": "3.9.9",
+    "rxjs": "7.8.2",
+    "tailwindcss": "4.3.3",
+    "tslib": "2.8.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.0"
   }
 }

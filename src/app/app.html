@@ -1,0 +1,144 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="site-frame">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#main" aria-label="Jarrod Zywien, home">
+        <span class="wordmark-initials" aria-hidden="true">JZ</span>
+        <span class="wordmark-caption">Personal profile</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#work">Projects & writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="theme-control">
+        <label class="theme-label" for="theme-preference">Theme</label>
+        <select
+          id="theme-preference"
+          class="theme-select"
+          [value]="themePreference()"
+          (change)="onThemePreferenceChange($event)"
+        >
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+          <option value="system">System</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-content">
+    <section class="intro" aria-labelledby="profile-title">
+      <div class="intro-copy">
+        <p class="eyebrow">Personal profile <span aria-hidden="true">/</span> 01</p>
+        <h1 id="profile-title" class="profile-title" [attr.aria-label]="profile.name">
+          <span class="name-given">{{ profile.givenName }}</span>
+          <span class="name-family">{{ profile.familyName }}</span>
+        </h1>
+        <p class="intro-summary">{{ profile.summary }}</p>
+        <p class="draft-note">
+          <span class="draft-mark" aria-hidden="true"></span>{{ profile.draftNote }}
+        </p>
+      </div>
+
+      <aside class="section-index" aria-label="Profile index">
+        <p class="eyebrow">Index</p>
+        <ol>
+          @for (section of profile.sections; track section.id) {
+          <li>
+            <a [href]="'#' + section.id">
+              <span class="index-number">{{ section.index }}</span>
+              <span>{{ section.heading }}</span>
+              <span class="index-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          }
+        </ol>
+      </aside>
+    </section>
+
+    <section id="about" class="dossier-section about-section" aria-labelledby="about-title">
+      <div class="section-label">
+        <span class="section-number">{{ profile.sections[0].index }}</span>
+        <p class="eyebrow">{{ profile.sections[0].eyebrow }}</p>
+        <h2 id="about-title">{{ profile.sections[0].heading }}</h2>
+      </div>
+      <div class="section-body about-body">
+        <p>{{ profile.sections[0].description }}</p>
+      </div>
+    </section>
+
+    <section id="experience" class="dossier-section" aria-labelledby="experience-title">
+      <div class="section-label">
+        <span class="section-number">{{ profile.sections[1].index }}</span>
+        <p class="eyebrow">{{ profile.sections[1].eyebrow }}</p>
+        <h2 id="experience-title">{{ profile.sections[1].heading }}</h2>
+      </div>
+      <div class="section-body">
+        <article class="entry-placeholder">
+          <h3>Professional experience</h3>
+          <p>{{ profile.sections[1].description }}</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="dossier-section skills-section" aria-labelledby="skills-title">
+      <div class="section-label">
+        <span class="section-number">{{ profile.sections[2].index }}</span>
+        <p class="eyebrow">{{ profile.sections[2].eyebrow }}</p>
+        <h2 id="skills-title">{{ profile.sections[2].heading }}</h2>
+      </div>
+      <div class="section-body skills-body">
+        <p class="skills-heading">{{ profile.sections[2].heading }} & areas of expertise</p>
+        <p>{{ profile.sections[2].description }}</p>
+      </div>
+    </section>
+
+    <section id="education" class="dossier-section" aria-labelledby="education-title">
+      <div class="section-label">
+        <span class="section-number">{{ profile.sections[3].index }}</span>
+        <p class="eyebrow">{{ profile.sections[3].eyebrow }}</p>
+        <h2 id="education-title">{{ profile.sections[3].heading }}</h2>
+      </div>
+      <div class="section-body education-body">
+        <p class="education-lead">Learning, study & training</p>
+        <p>{{ profile.sections[3].description }}</p>
+      </div>
+    </section>
+
+    <section id="work" class="dossier-section work-section" aria-labelledby="work-title">
+      <div class="section-label">
+        <span class="section-number">{{ profile.sections[4].index }}</span>
+        <p class="eyebrow">{{ profile.sections[4].eyebrow }}</p>
+        <h2 id="work-title">{{ profile.sections[4].heading }}</h2>
+      </div>
+      <div class="section-body work-body">
+        <p class="work-lead">A selected index of projects and writing</p>
+        <p>{{ profile.sections[4].description }}</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="contact-heading">
+        <span class="section-number">{{ profile.sections[5].index }}</span>
+        <p class="eyebrow">{{ profile.sections[5].eyebrow }}</p>
+        <h2 id="contact-title">{{ profile.sections[5].heading }}</h2>
+      </div>
+      <div class="contact-copy">
+        <p>{{ profile.sections[5].description }}</p>
+        <a class="back-to-top" href="#main"> Back to top <span aria-hidden="true">↑</span> </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Jarrod Zywien <span aria-hidden="true">·</span> Personal profile</p>
+      <p>End of profile</p>
+    </footer>
+  </main>
+</div>

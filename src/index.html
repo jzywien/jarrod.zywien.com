@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-theme-preference="dark">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jarrod Zywien | Professional Profile</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jarrod Zywien’s personal résumé and profile. Content is in progress."
+    />
+    <meta name="theme-color" content="#1a1a1a" />
+    <script>
+      (() => {
+        let preference = 'dark';
+        try {
+          const saved = localStorage.getItem('profile-theme');
+          if (saved === 'dark' || saved === 'light' || saved === 'system') {
+            preference = saved;
+          }
+        } catch {}
+
+        let theme = preference;
+        if (preference === 'system') {
+          let prefersLight = false;
+          try {
+            prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+          } catch {}
+          theme = prefersLight ? 'light' : 'dark';
+        }
+
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themePreference = preference;
+        document
+          .querySelector('meta[name="theme-color"]')
+          ?.setAttribute('content', theme === 'light' ? '#f4f6f8' : '#1a1a1a');
+      })();
+    </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jarrod Zywien | Professional Profile" />
+    <meta
+      property="og:description"
+      content="Jarrod Zywien’s personal résumé and profile. Content is in progress."
+    />
+    <meta property="og:url" content="https://jarrod.zywien.com/" />
+    <link rel="canonical" href="https://jarrod.zywien.com/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>
