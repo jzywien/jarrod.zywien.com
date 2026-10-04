@@ -2,6 +2,7 @@ import {
   afterNextRender,
   ChangeDetectionStrategy,
   Component,
+  computed,
   DestroyRef,
   inject,
   signal,
@@ -25,6 +26,10 @@ function isThemePreference(value: string | null): value is ThemePreference {
 export class App {
   protected readonly profile = profileContent;
   protected readonly themePreference = signal<ThemePreference>('dark');
+  protected readonly resolvedTheme = signal<'dark' | 'light'>('dark');
+  protected readonly themeAction = computed(() =>
+    this.resolvedTheme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode',
+  );
 
   private readonly destroyRef = inject(DestroyRef);
   private mediaQuery: MediaQueryList | null = null;
@@ -33,18 +38,13 @@ export class App {
     afterNextRender(() => this.initializeTheme());
   }
 
-  protected onThemePreferenceChange(event: Event): void {
-    const value = (event.currentTarget as HTMLSelectElement).value;
-
-    if (!isThemePreference(value)) {
-      return;
-    }
-
-    this.themePreference.set(value);
-    this.applyTheme(value, this.mediaQuery?.matches ?? false);
+  protected toggleTheme(): void {
+    const nextTheme = this.resolvedTheme() === 'dark' ? 'light' : 'dark';
+    this.themePreference.set(nextTheme);
+    this.applyTheme(nextTheme, this.mediaQuery?.matches ?? false);
 
     try {
-      window.localStorage.setItem(THEME_STORAGE_KEY, value);
+      window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
     } catch {
       // The selected theme still works for this page when storage is unavailable.
     }
@@ -95,6 +95,7 @@ export class App {
 
   private applyTheme(preference: ThemePreference, prefersLight: boolean): void {
     const resolvedTheme = preference === 'system' ? (prefersLight ? 'light' : 'dark') : preference;
+    this.resolvedTheme.set(resolvedTheme);
     document.documentElement.dataset['theme'] = resolvedTheme;
     document.documentElement.dataset['themePreference'] = preference;
     document

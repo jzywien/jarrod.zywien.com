@@ -4,8 +4,8 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="wordmark" href="#main" aria-label="Jarrod Zywien, home">
-        <span class="wordmark-initials" aria-hidden="true">JZ</span>
-        <span class="wordmark-caption">Personal profile</span>
+        <img class="wordmark-logo" src="/favicon.svg" alt="" aria-hidden="true" />
+        <span class="wordmark-caption">Jarrod Zywien</span>
       </a>
 
       <nav class="main-nav" aria-label="Main navigation">
@@ -17,19 +17,34 @@
         <a href="#contact">Contact</a>
       </nav>
 
-      <div class="theme-control">
-        <label class="theme-label" for="theme-preference">Theme</label>
-        <select
-          id="theme-preference"
-          class="theme-select"
-          [value]="themePreference()"
-          (change)="onThemePreferenceChange($event)"
+      <button
+        class="theme-toggle"
+        type="button"
+        [attr.aria-label]="themeAction()"
+        [attr.title]="themeAction()"
+        (click)="toggleTheme()"
+      >
+        <svg
+          class="theme-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+          focusable="false"
         >
-          <option value="dark">Dark</option>
-          <option value="light">Light</option>
-          <option value="system">System</option>
-        </select>
-      </div>
+          <g class="theme-icon__moon">
+            <path d="M20.1 15.7A8.4 8.4 0 0 1 8.3 3.9 8.5 8.5 0 1 0 20.1 15.7Z" />
+            <circle class="theme-icon__star" cx="18.5" cy="5.5" r="1" />
+            <circle class="theme-icon__star theme-icon__star--small" cx="21" cy="10" r=".5" />
+          </g>
+          <g class="theme-icon__sun">
+            <circle class="theme-icon__sun-core" cx="12" cy="12" r="4" />
+            <path
+              class="theme-icon__rays"
+              d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+            />
+          </g>
+        </svg>
+      </button>
     </div>
   </header>
 

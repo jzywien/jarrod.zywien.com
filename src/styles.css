@@ -130,17 +130,17 @@ a {
 
 .wordmark {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.75rem;
   width: fit-content;
   white-space: nowrap;
 }
 
-.wordmark-initials {
-  color: var(--profile-copy);
-  font-size: 1rem;
-  font-weight: 750;
-  letter-spacing: -0.08em;
+.wordmark-logo {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 auto;
 }
 
 .wordmark-caption {
@@ -172,27 +172,105 @@ a {
   color: var(--profile-accent);
 }
 
-.theme-control {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-}
-
-.theme-label {
-  color: var(--profile-muted);
-  font-size: 0.7rem;
-  font-weight: 600;
-}
-
-.theme-select {
-  min-height: 2.25rem;
+.theme-toggle {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
   border: 1px solid var(--profile-line-strong);
-  border-radius: 0.2rem;
-  background: var(--profile-canvas);
-  padding: 0.35rem 1.65rem 0.35rem 0.55rem;
-  color: var(--profile-copy);
-  font-size: 0.72rem;
-  font-weight: 600;
+  border-radius: 50%;
+  background: var(--profile-panel);
+  color: var(--profile-cyan);
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--profile-accent);
+  background: var(--profile-panel-raised);
+}
+
+.theme-toggle:active {
+  transform: scale(0.94);
+}
+
+.theme-icon {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+  overflow: visible;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.65;
+}
+
+.theme-icon__sun,
+.theme-icon__moon {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    opacity 420ms cubic-bezier(0.2, 0.75, 0.25, 1),
+    transform 460ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.theme-icon__sun {
+  opacity: 0;
+  transform: rotate(-70deg) scale(0.55);
+}
+
+.theme-icon__moon {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+.theme-icon__sun-core {
+  fill: var(--profile-accent);
+  stroke: var(--profile-accent);
+}
+
+.theme-icon__rays {
+  fill: none;
+  stroke: var(--profile-accent);
+  stroke-width: 1.8;
+}
+
+.theme-icon__moon path {
+  fill: var(--profile-cyan);
+  stroke: var(--profile-cyan);
+}
+
+.theme-icon__star {
+  fill: var(--profile-accent);
+  stroke: none;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    opacity 300ms ease,
+    transform 420ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.theme-icon__star--small {
+  transition-delay: 35ms;
+}
+
+:root[data-theme='light'] .theme-icon__sun {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+:root[data-theme='light'] .theme-icon__moon {
+  opacity: 0;
+  transform: rotate(55deg) scale(0.55);
+}
+
+:root[data-theme='light'] .theme-icon__star {
+  opacity: 0;
+  transform: scale(0.3);
 }
 
 .page-content {
@@ -579,9 +657,10 @@ a {
     align-items: center;
   }
 
-  .theme-control {
+  .theme-toggle {
     grid-column: 2;
     grid-row: 1;
+    justify-self: end;
   }
 
   .intro {
@@ -676,25 +755,14 @@ a {
     width: min(100% - 1.75rem, 80rem);
   }
 
-  .wordmark-initials {
-    font-size: 0.92rem;
+  .wordmark-logo {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 
   .wordmark-caption {
     font-size: 0.52rem;
     letter-spacing: 0.07em;
-  }
-
-  .theme-control {
-    gap: 0.35rem;
-  }
-
-  .theme-label {
-    font-size: 0.64rem;
-  }
-
-  .theme-select {
-    padding-inline: 0.4rem 1.2rem;
   }
 
   .profile-title {
@@ -758,7 +826,7 @@ a {
 
   .skip-link,
   .main-nav,
-  .theme-control,
+  .theme-toggle,
   .back-to-top {
     display: none !important;
   }

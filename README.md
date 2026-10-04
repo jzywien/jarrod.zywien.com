@@ -28,10 +28,11 @@ Open `http://localhost:4200/` to view the site while editing.
 Edit résumé and profile content, including the concise placeholders for details
 that have not been supplied, in `src/app/profile-content.ts`.
 
-The Theme selector defaults to Dark and offers Light and System; System follows
-the device color preference. The choice is saved in browser storage when
-available. Edit the shared palette tokens in `src/styles.css`. Printed pages
-use a white background and dark text.
+The compact sun/moon button switches between the resolved light and dark theme.
+The default remains Dark; a saved System preference follows the device color
+preference until the button is used. Theme choices are saved in browser storage
+when available. Edit the shared palette tokens in `src/styles.css`. Printed
+pages use a white background and dark text.
 
 Build the static site and TypeScript server, then run the production server with:
 
